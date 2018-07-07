@@ -1,0 +1,292 @@
+.financing {
+    margin: 0 15px;
+    padding-top: 60px;
+    clear: both;
+}
+
+.financing-label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: $brand-primary;
+}
+
+.financing-total {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: white;
+    padding: 5px 0 20px;
+}
+
+.financing-progress:before,
+.financing-progress:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.financing-progress-line {
+    float: left;
+    width: 100%;
+    height: 6px;
+    background-color: #313131;
+}
+
+.financing-progress-bar {
+    background-color: $brand-primary;
+    max-width: 100%;
+    width: 0;
+    height: 0;
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+}
+
+.financing-step {
+    width: 33.333332%;
+    float: left;
+    min-height: 68px;
+    font-size: 14px;
+    color: #999;
+    padding: 25px 20px 0 20px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.financing-step:last-child {
+    border-right: dashed 2px #313131;
+}
+
+.financing-step.active {
+    font-weight: bold;
+    color: $brand-primary;
+}
+
+.financing-step-one {
+    border-right: dashed 2px #313131;
+}
+
+@media (min-width: 992px) {
+    .informer + .btn {
+        width: 100%;
+        max-width: 500px;
+        float: right;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .informer-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .informer {
+        margin-top: 20px;
+    }
+
+    .informer-form {
+        margin: 0 auto;
+        float: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .financing-step-one {
+        clear: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .financing-step {
+        padding-left: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) {
+    .financing-step-one {
+        position: relative;
+    }
+
+    .financing-step-one:before {
+        content: '';
+        display: block;
+        height: 6px;
+        position: absolute;
+        top: -6px;
+        left: -2px;
+        right: -2px;
+        background-color: $brand-primary;
+    }
+
+    .financing-progress-bar {
+        height: 6px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .financing {
+        text-align: center;
+    }
+
+    .financing-progress {
+        height: 350px;
+        position: relative;
+        text-align: left;
+        width: 260px;
+        margin: 0 auto;
+    }
+
+    .financing-progress-line {
+        position: absolute;
+        top: 33.3333332%;
+        left: 0;
+        margin-left: 0;
+        width: 6px;
+        height: 66.666667%;
+        background-color: #313131;
+    }
+
+    .financing-progress-bar {
+        width: 6px !important;
+        height: 5%;
+    }
+
+    .financing-step {
+        width: 100%;
+        float: none;
+        padding-left: 15px;
+        margin-left: 6px;
+        padding-top: 40px;
+        height: 33.3333332%;
+        font-size: 14px;
+        text-align: left;
+        border-left: 0;
+    }
+
+    .financing-step-two {
+        border-top: dashed 2px #313131;
+    }
+
+    .financing-step-one {
+        position: relative;
+    }
+
+    .financing-step:last-child {
+        border-right: 0;
+        border-bottom: dashed 2px #313131;
+    }
+
+    .financing-step-one:before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 6px;
+        top: -2px;
+        bottom: 0;
+        left: -6px;
+        background-color: $brand-primary;
+    }
+
+    .informer-form {
+        width: auto;
+    }
+}
+
+.flex-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.ico-dates {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    color: white;
+}
+
+.ico-dates p {
+    font-size: 1.3em;
+}
+
+.ico-dates .block {
+    display: inline-block;
+    margin: 0 2em;
+}
+
+.ico-dates img {
+    max-width: 100%;
+}
+
+.token-price div {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid $gray;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+.token-price table {
+    width: 300px;
+}
+
+.token-price th {
+    font-size: 1.3em;
+}
+
+.token-price td,
+.token-price th {
+    line-height: 2.5em;
+    text-align: center;
+}
+
+.token-price tr:not(:last-of-type) td:first-of-type span {
+    width: 60%;
+    border-bottom: 1px solid silver;
+    display: inline-block;
+}
+
+.token-price td:last-of-type span {
+    width: 60%;
+    background-color: $brand-primary;
+    color: white;
+    border-bottom: 1px solid $brand-primary;
+    display: inline-block;
+}
+
+.token-price tr:last-of-type td:last-of-type span {
+    -webkit-border-bottom-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    -webkit-border-bottom-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+.token-price tr:nth-of-type(3) span {
+    -webkit-border-top-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    -webkit-border-top-right-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.token-price b {
+    color: $brand-primary;
+}
+
+.select-bold {
+    color: $brand-primary;
+    font-weight: bold;
+}

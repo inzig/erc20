@@ -1,0 +1,53 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Font Awesome
+@import "~font-awesome/scss/font-awesome";
+
+// NOTY v3
+@import "~noty/src/noty";
+
+// Daneden animate css
+@import "../vendor/daneden/animate.css";
+
+// Application Styles
+@import "benebit/styles";
+@import "spinner";
+@import "updates";
+
+// Vue components
+@import "components/Modal";
+
+.grid-item {
+  height: 36rem;
+}
+
+
+@media screen and (min-width: 1850px) {
+
+  .grid-item {
+    height: 46rem;
+  }
+
+}
+
+
+@media screen and (min-width: 2560px){
+  .grid-item {
+    height: 50rem;
+  }
+}
+
+
+@media screen and (min-width: 2880px){
+  .grid-item {
+    height: 55rem;
+  }
+}

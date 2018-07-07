@@ -1,0 +1,40 @@
+// Body
+$body-bg: #752627;
+$text-color: #fff;
+
+// Brands
+$brand-primary: lighten($body-bg, 30%);
+$brand-info: #5bc0de;
+$brand-success: #5cb85c;
+$brand-warning: lighten(#f0ad4e, 15%);
+$brand-danger: #d9534f;
+
+// Typography
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+$navbar-default-link-color: $text-color;
+$navbar-default-link-hover-color: $navbar-default-link-color;
+$navbar-default-link-hover-bg: darken(rgb(47, 18, 76), 6.5%);
+$navbar-default-link-active-color: $navbar-default-link-color;
+$navbar-default-link-active-bg: $navbar-default-link-hover-bg;
+$navbar-default-link-disabled-color: $navbar-default-link-color;
+$navbar-default-link-disabled-bg: darken($navbar-default-link-color, 10%);
+
+
+//Login Form Colors
+
+$form-panel-color: rgba(0,0,0,0.4);
+$form-button-color-text: #93352B;
+$form-button-bg: #fff;
+$form-button-color: #fff;
+$form-button-color: #fff;
+$white-color:#fff;
+$form-placeholder-color:#fff;
+
+//Admin panel Color
+
+$admin-navbar-bg: #711510;
+$admin-sidebar-bg: #80302F;
+$admin-border-top: #fff;
+

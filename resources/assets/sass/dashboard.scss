@@ -1,0 +1,17 @@
+.dashboard-counter {
+    background: lighten($body-bg, 20%);
+    border-color: lighten($body-bg, 30%);
+
+    .informer-exchange > span {
+        color: inherit;
+    }
+}
+
+.showcode > div {
+    display: inline-block !important;
+    width: 400px;
+}
+
+.modal-qrcode {
+    background: #fff !important;
+}

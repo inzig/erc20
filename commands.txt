@@ -1,0 +1,23 @@
+
+
+Composer install 
+
+Npm install
+ 
+Php artisan migrate:refresh --seed
+
+
+Composer dump-autoload
+
+
+Php artisan key:generate
+
+
+Php artisan storage:link
+
+
+Php artisan update:rates
+
+
+Php artisan
+npm watch-poll

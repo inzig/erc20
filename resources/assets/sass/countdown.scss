@@ -1,0 +1,203 @@
+.informer {
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+    /*background-color: #252525;*/
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.informer-form {
+    width: 500px;
+    float: right;
+}
+
+.informer-left,
+.informer-right {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.informer-left {
+    border-right: 1px solid #2c2c2c;
+    width: 45%;
+}
+
+.informer-inner {
+    padding: 30px;
+}
+
+.informer-day,
+.informer-exchange,
+.informer-label {
+    display: block;
+}
+
+.informer-day {
+    font-size: 38px;
+    letter-spacing: 1.6px;
+    color: #ff9900;
+    display: block;
+
+}
+
+.informer-exchange {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.informer-exchange > span {
+    color: #ff9900;
+}
+
+.informer-label {
+    font-size: 12px;
+    color: #999;
+    padding-bottom: 5px;
+}
+
+.informer-header {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff9900;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.countdown-full {
+    display: block;
+    text-align: center;
+}
+
+.is-countdown {
+    display: block;
+}
+
+.countdown-compact.is-countdown > .countdown-row,
+.countdown-full.is-countdown > .countdown-row {
+    display: inline-table;
+    vertical-align: top;
+    table-layout: fixed;
+    width: 250px;
+}
+
+.countdown-compact {
+    padding-top: 3px;
+}
+
+.countdown-section {
+    display: table-cell;
+}
+
+.countdown-compact .countdown-section {
+    min-width: 50px;
+}
+
+.countdown-amount,
+.countdown-period {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.countdown-amount {
+    color: #fff;
+    padding: 0 5px;
+}
+
+.informer-day .countdown-amount {
+    color: #ff9900;
+    font-size: 38px;
+    float: right;
+}
+
+.informer-day .countdown-row {
+    display: block;
+    text-align: center;
+}
+
+.informer-day .countdown-row .countdown-section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.countdown-full .countdown-amount {
+    font-size: 48px;
+}
+
+.countdown-compact .countdown-amount {
+    font-size: 36px;
+    min-width: 60px;
+}
+
+.countdown-period {
+    font-size: 18px;
+}
+
+.informer-day .countdown-period {
+    color: #ff9900;
+    font-size: 38px;
+    float: left;
+}
+
+.informer-day .countdown-section:before,
+.informer-day .countdown-section:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.countdown-compact .countdown-period {
+    display: none;
+}
+
+.countdown-amount:after {
+    content: ':';
+    display: block;
+    text-align: center;
+    width: 10px;
+    color: #ff9900;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: -5px;
+}
+
+.countdown-section:last-child .countdown-amount:after {
+    content: none;
+}
+
+@media (max-width: 480px) {
+    .informer {
+        display: block;
+    }
+
+    .informer-inner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .informer-left,
+    .informer-right {
+        display: block;
+    }
+
+    .informer-left {
+        width: auto;
+        border-left: 0;
+        border-bottom: 1px solid #2c2c2c;
+    }
+
+    .countdown-full .countdown-amount {
+        font-size: 36px;
+    }
+
+    .countdown-full .countdown-period {
+        font-size: 14px;
+    }
+}

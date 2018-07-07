@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 621 462" style="enable-background:new 0 0 621 462;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E2A8A8;stroke:#000000;stroke-width:11;stroke-miterlimit:10;}
+	.st1{fill:#AA6B6B;stroke:#000000;stroke-width:11;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#000000;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#6182BC;stroke:#000000;stroke-width:11;stroke-miterlimit:10;}
+	.st5{fill:#1746AF;stroke:#000000;stroke-width:11;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M511,431H22c-1.6,0-3-1.4-3-3V114c0-1.7,1.4-3,3-3h489c1.7,0,3,1.3,3,3v314C514,429.6,512.7,431,511,431z"/>
+<path class="st1" d="M482.8,403.9H50.2c-1.7,0-3-1.4-3-3V141.1c0-1.6,1.3-3,3-3h432.6c1.6,0,3,1.4,3,3v259.7
+	C485.8,402.5,484.5,403.9,482.8,403.9z"/>
+<line class="st2" x1="84" y1="158" x2="84" y2="383"/>
+<line class="st2" x1="120" y1="158" x2="120" y2="383"/>
+<line class="st2" x1="156" y1="158" x2="156" y2="383"/>
+<line class="st2" x1="192" y1="158" x2="192" y2="383"/>
+<line class="st2" x1="228" y1="158" x2="228" y2="383"/>
+<line class="st2" x1="264" y1="158" x2="264" y2="383"/>
+<line class="st2" x1="300" y1="158" x2="300" y2="383"/>
+<line class="st2" x1="336" y1="158" x2="336" y2="383"/>
+<line class="st2" x1="372" y1="158" x2="372" y2="383"/>
+<line class="st2" x1="408" y1="158" x2="408" y2="383"/>
+<line class="st2" x1="444" y1="158" x2="444" y2="383"/>
+<path class="st1" d="M57,451H25c-1.6,0-3-1.4-3-3v-14c0-1.6,1.4-3,3-3h32c1.7,0,3,1.4,3,3v14C60,449.6,58.7,451,57,451z"/>
+<path class="st1" d="M57,111H25c-1.6,0-3-1.3-3-3V94c0-1.7,1.4-3,3-3h32c1.7,0,3,1.3,3,3v14C60,109.7,58.7,111,57,111z"/>
+<path class="st1" d="M511,451h-32c-1.6,0-3-1.4-3-3v-14c0-1.6,1.4-3,3-3h32c1.7,0,3,1.4,3,3v14C514,449.6,512.7,451,511,451z"/>
+<path class="st3" d="M511,111h-32c-1.6,0-3-1.3-3-3V94c0-1.7,1.4-3,3-3h32c1.7,0,3,1.3,3,3v14C514,109.7,512.7,111,511,111z"/>
+<circle class="st4" cx="519.5" cy="101.5" r="93.5"/>
+<circle class="st5" cx="519.5" cy="101.5" r="71.5"/>
+<polyline class="st2" points="486.5,105.1 514.6,137.3 552.5,64.7 "/>
+</svg>

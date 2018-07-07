@@ -1,0 +1,302 @@
+
+.bg-logo {
+    background:-webkit-gradient(linear,left top,right top,from(#007CBA),to(#1D3560)) !important;
+    background:linear-gradient(45deg,#007CBA 0,#1D3560) !important;
+    color: #fff;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#007CBA",endColorstr="#1D3560",GradientType=1) !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.label + .label {
+    margin-left: 3px;
+}
+
+.page-sidebar-menu .nav-item.green .title,
+.page-sidebar-menu .nav-item.green i[class*="icon-"] {
+    color: #00BE00;
+}
+
+.page-sidebar-menu .nav-item.orange .title,
+.page-sidebar-menu .nav-item.orange i[class*="icon-"] {
+    color: orange;
+}
+
+.spinner-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background: rgba(65, 64, 66, 0.85);
+    z-index: 9999999;
+}
+
+.spinner-container:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.spinner-container .spinner-frame {
+    display: inline-block;
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #eee;
+    padding: 10px;
+}
+
+.spinner-container .spinner-frame .spinner-bar {
+    background: #87af1e;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100% 0 0 0;
+    -webkit-animation: spinny 1s linear infinite;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+.spinner-container .spinner-frame .spinner-cover {
+    background: #eee;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.spinner-container.side-loader {
+    background: transparent;
+    bottom: auto;
+    left: auto;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    z-index: 9999999;
+}
+
+@-webkit-keyframes spinny {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        background: #007CBA;
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        background: #1D3560;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        background: #007CBA;
+    }
+}
+
+.gly-spin {
+    -webkit-animation: spin-icon 2s infinite linear;
+    -moz-animation: spin-icon 2s infinite linear;
+    -o-animation: spin-icon 2s infinite linear;
+    animation: spin-icon 2s infinite linear;
+}
+
+@-moz-keyframes spin-icon {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(359deg);
+    }
+}
+
+@-webkit-keyframes spin-icon {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+@-o-keyframes spin-icon {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(359deg);
+    }
+}
+
+@keyframes spin-icon {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.p-r {
+    position: relative;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.p-r-1 {
+    padding-right: 0.5rem !important;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th,
+.table > tfoot > tr > td, .table > tfoot > tr > th,
+.table > thead > tr > td, .table > thead > tr > th {
+    white-space: nowrap;
+}
+
+.vertical-fade-enter-active {
+    transition: all .5s ease;
+}
+
+.vertical-fade-leave-active {
+    transition: all .5s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.vertical-fade-enter,
+.vertical-fade-leave-to {
+    transform: translateY(15px);
+    opacity: 0;
+}
+
+.list-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list-enter-active,
+.list-leave-active {
+    transition: all 1s;
+}
+
+.list-enter,
+.list-leave-to {
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+.spinner-circle {
+    height: 90px;
+    padding: 30px 0 10px;
+}
+
+.circle {
+    background-color: rgba(0, 0, 0, 0);
+    border: 5px solid rgba(0, 183, 229, 0.9);
+    opacity: .9;
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 0 0 35px #2187e7;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    -moz-animation: spinPulse 1s infinite ease-in-out;
+    -webkit-animation: spinPulse 1s infinite linear;
+}
+
+.circle1 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 5px solid rgba(0, 183, 229, 0.9);
+    opacity: .9;
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 0 0 15px #2187e7;
+    width: 30px;
+    height: 30px;
+    margin: 10px auto;
+    position: relative;
+    top: -50px;
+    -moz-animation: spinoffPulse 1s infinite linear;
+    -webkit-animation: spinoffPulse 1s infinite linear;
+}
+
+@-moz-keyframes spinPulse {
+    0% {
+        -moz-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #2187e7;
+    }
+
+    50% {
+        -moz-transform: rotate(145deg);
+        opacity: 1;
+    }
+
+    100% {
+        -moz-transform: rotate(-320deg);
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes spinoffPulse {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spinPulse {
+    0% {
+        -webkit-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #2187e7;
+    }
+
+    50% {
+        -webkit-transform: rotate(145deg);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: rotate(-320deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes spinoffPulse {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.blink-me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

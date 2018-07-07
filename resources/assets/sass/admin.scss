@@ -1,0 +1,165 @@
+// Variables
+@import "variables";
+
+$body-bg: #eef1f5;
+$bne-basic-color: #250c3d;
+
+// NOTY v3
+@import "~noty/src/noty";
+
+// Vue components
+@import "components/Modal";
+
+a.auth-anchor.dropdown-toggle {
+    color: #fff;
+}
+
+.image-spinner {
+    display: none;
+}
+
+.ajax-form-submit {
+    position: relative;
+}
+.red-color{
+    color:red;
+}
+.bonus-values {
+    .mt-action-datetime {
+        color: $bne-basic-color !important;
+    }
+
+    .text-left {
+        text-align: left !important;
+    }
+
+    .text-right {
+        text-align: right !important;
+    }
+}
+
+.bonus-add,
+.bonus-inputs {
+    display: none;
+
+    .mt-action-datetime {
+        padding-top: 0.8rem !important;
+    }
+
+    .text-right {
+        text-align: right !important;
+    }
+}
+
+#icoAdmin .custom-icon {
+    color: inherit;
+    font-size: 1rem;
+}
+
+.p-l-0 {
+    padding-left: 0 !important;
+}
+
+.increment-inputs .form-group {
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+.incr-value {
+    padding-left: 0;
+
+    &:after {
+        content: '+';
+        margin-left: 1rem;
+    }
+}
+
+.page-header.navbar .page-top {
+    background: $admin-navbar-bg !important;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle:focus{
+    background: $admin-navbar-bg !important;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle {
+    background: $admin-navbar-bg !important;
+}
+.admin-top-menu{
+    background: $admin-navbar-bg !important;
+}
+.page-content-wrapper{
+    background-color:$admin-sidebar-bg !important;
+}
+.page-header.navbar .bg-logo{
+    background-color:$admin-sidebar-bg !important;
+}
+
+.admin-side-menu{
+    background:$admin-sidebar-bg !important;
+
+}
+
+.admin-side-menu:hover,
+.admin-side-menu:focus,
+.admin-side-menu.active{
+    background:$admin-sidebar-bg !important;
+}
+
+
+.page-sidebar-menu > li > a{
+    border-top-color:$admin-border-top !important;
+    background:$admin-sidebar-bg !important;
+}
+
+
+.page-sidebar-menu > li.active > a{
+    background: darken($admin-sidebar-bg, 10%) !important;
+}
+
+
+.page-sidebar-menu > li > a:hover,
+.page-sidebar-menu > li > a:active,
+.page-sidebar-menu > li > a:focus{
+    background: darken($admin-sidebar-bg, 10%)  !important;
+}
+
+.page-header.navbar .bg-logo{
+    background: $admin-navbar-bg !important;
+}
+.auth-anchor{
+    background: $admin-navbar-bg !important;
+}
+.auth-anchor:hover{
+    background: $admin-navbar-bg !important;
+}
+.page-header-inner{
+    background: $admin-navbar-bg !important;
+}
+.page-footer .page-footer-inner {
+    color: #fff !important;
+}
+.page-footer-inner > a:nth-child(1):hover{
+    color: #fff;
+}
+.page-container{
+   background: darken($admin-navbar-bg, 15%) !important;
+}
+.page-sidebar-wrapper{
+    background: darken($admin-navbar-bg, 15%) !important;
+}
+
+
+.margin-top-5{
+    margin-top: 5px !important;
+}
+.incr-result {
+    padding-right: 0;
+
+    &:before {
+        content: '=';
+        margin-right: 1rem;
+    }
+
+
+}
+
+

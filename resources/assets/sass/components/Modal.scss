@@ -1,0 +1,118 @@
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: table;
+    transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-container {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    background-color: lighten($body-bg, 20%);
+    border-radius: 2px;
+    transition: all .3s ease;
+
+    .close {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 3rem;
+        z-index: 999999;
+    }
+}
+
+.modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+}
+
+.modal-body {
+    padding: 10px;
+    color: #fff;
+
+    a {
+        color: #fff;
+    }
+
+    h3 {
+        margin: 0 0 2rem;
+    }
+
+    .form-signin {
+        width: 100%;
+        padding: 30px 38px 35px;
+        margin: 0 auto;
+        background-color: #42106f;
+        border: 2px solid #a94eff;
+    }
+
+    .btn,
+    .form-control,
+    .eth-input .input-group-addon {
+        border-radius: 2px;
+    }
+
+    .eth-input .input-group-addon {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        padding: 0 15px;
+        font-size: 2rem;
+        background-color: #fff;
+
+        .fa-check {
+            color: lighten($brand-success, 10%);
+        }
+
+        .fa-remove {
+            color: lighten($brand-danger, 2%);
+        }
+    }
+}
+
+.modal-default-button {
+    float: right;
+}
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#g-recaptcha {
+    line-height: 1rem;
+}
+
+#g-recaptcha > div {
+    display: inline-block;
+    line-height: 1rem;
+}
+
+.eth-input .input-group-addon {
+    .fa-check {
+        color: lighten($brand-success, 10%);
+    }
+
+    .fa-remove {
+        color: lighten($brand-danger, 2%);
+    }
+}
