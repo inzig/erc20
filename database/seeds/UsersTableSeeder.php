@@ -14,8 +14,8 @@ class UsersTableSeeder extends Seeder
         $user = \BCES\Models\User::create([
             'name' => 'Admin User',
             'username' => 'admin',
-            'email' => 'admin@artoujours.io',
-            'password' => bcrypt('admin@artoujours.io'),
+            'email' => 'admin@furtcoin.com',
+            'password' => bcrypt('admin@furtcoin.com'),
             'activated' => true
         ]);
 
@@ -26,8 +26,8 @@ class UsersTableSeeder extends Seeder
         $user = \BCES\Models\User::create([
             'name' => 'Dashboard Client',
             'username' => 'dashboard',
-            'email' => 'oknasir@artoujours.io',
-            'password' => bcrypt('oknasir22'),
+            'email' => 'dashboard@furtcoin.com',
+            'password' => bcrypt('dashboard@furtcoin.com'),
             'activated' => true
         ]);
 
