@@ -24,7 +24,8 @@
             background: #762627;
         }
     </style>
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    {{ HTML::style('css/app.css') }}
+    <!-- <link href="{{ mix('css/app.css') }}" rel="stylesheet"> -->
     
 </head>
 <body class="body-login @yield('body-override')">
@@ -46,7 +47,8 @@
 
     <!-- Scripts -->
     <script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
-    <script src="{{ mix('js/app.js') }}"></script>
+    {{ HTML::script('js/app.js') }}
+    <!-- <script src="{{ mix('js/app.js') }}"></script> -->
 @yield('js')
 </body>
 </html>
