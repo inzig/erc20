@@ -10,7 +10,7 @@
                     <div class="panel panel-default m-0">
 
                         <div class="panel-heading text-center">
-                           <a href="{{ route('home') }}"> <img class="login_pic" width="80%" src="/images/logo-icon.png"> </a>
+                           <a href="{{ route('home') }}"> <img class="login_pic" width="80%" src="{{ URL::asset('images/logo-icon.png') }}"> </a>
                             <h3 class="login-heading">Login to your account</h3>
                         </div>
 

@@ -9,7 +9,7 @@
                 <div class="col-md-4 col-md-offset-4">
                     <div class="panel panel-default m-0">
                         <div class="panel-heading text-center">
-                            <a href="{{ route('home') }}"><img class="login_pic" src="/images/login-logo.jpg" alt=""></a>
+                            <a href="{{ route('home') }}"><img class="login_pic" src="{{ URL::asset('images/logo-icon.png') }}" alt=""></a>
                             <h3 class="login-heading">Create an Account</h3>
                         </div>
 
