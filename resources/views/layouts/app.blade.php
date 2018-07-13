@@ -24,8 +24,8 @@
             background: #762627;
         }
     </style>
-    {{ HTML::style('css/app.css') }}
-    <!-- <link href="{{ mix('css/app.css') }}" rel="stylesheet"> -->
+    
+    <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet">
     
 </head>
 <body class="body-login @yield('body-override')">
@@ -44,11 +44,11 @@
             <div class="spinner-bar"></div>
         </div>
     </div>
-
+    
     <!-- Scripts -->
     <script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
-    {{ HTML::script('js/app.js') }}
     <!-- <script src="{{ mix('js/app.js') }}"></script> -->
+    <script src="{{ URL::asset('js/app.js') }}"></script>
 @yield('js')
 </body>
 </html>
