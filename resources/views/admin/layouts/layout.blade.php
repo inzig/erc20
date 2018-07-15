@@ -41,33 +41,34 @@
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
-    <link href="/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
-    <link href="/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css">
+    
+    <link href="{{ URL::asset('assets/global/plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/global/plugins/simple-line-icons/simple-line-icons.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/global/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css') }}" rel="stylesheet" type="text/css">
     <!-- END GLOBAL MANDATORY STYLES -->
 
     <!-- BEGIN PAGE LEVEL PLUGINS -->
-    <link href="/assets/global/plugins/morris/morris.css" rel="stylesheet" type="text/css">
-    <link href="/assets/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/global/plugins/morris/morris.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/global/plugins/fullcalendar/fullcalendar.min.css') }}" rel="stylesheet" type="text/css">
     <!-- END PAGE LEVEL PLUGINS -->
 
     <!-- BEGIN THEME GLOBAL STYLES -->
-    <link href="/assets/global/plugins/bootstrap-toastr/toastr.min.css" rel="stylesheet" type="text/css">
-    <link href="/assets/global/css/components.min.css" rel="stylesheet" type="text/css">
-    <link href="/assets/global/css/plugins.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/global/plugins/bootstrap-toastr/toastr.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/global/css/components.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/global/css/plugins.min.css') }}" rel="stylesheet" type="text/css">
     <!-- END THEME GLOBAL STYLES -->
 
     <!-- BEGIN THEME LAYOUT STYLES -->
-    <link href="/assets/layout/css/layout.min.css" rel="stylesheet" type="text/css">
-    <link href="/assets/layout/css/themes/blue.css" rel="stylesheet" type="text/css">
-    <link href="/assets/layout/css/custom.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/layout/css/layout.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/layout/css/themes/blue.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/layout/css/custom.min.css') }}" rel="stylesheet" type="text/css">
     <!-- END THEME LAYOUT STYLES -->
 
     <!-- BEGIN VUEJS STYLES -->
-    <link href="{{ mix('css/admin.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="/custom-fonts/Glyphter.css">
-    <!-- END VUEJS STYLES -->
+    <link href="{{ URL::asset('css/admin.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ URL::asset('custom-fonts/Glyphter.css') }}">
+    <!-- END VUEJS STYLES -->   
 @yield('css')
 
     <style>
@@ -125,35 +126,35 @@
     </div>
 
     <!-- BEGIN CORE PLUGINS -->
-    <script src="/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-    <script src="/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
-    <script src="/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-    <script src="/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-    <script src="/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/global/plugins/jquery.min.js') }}" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/global/plugins/bootstrap/js/bootstrap.min.js') }}" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/global/plugins/js.cookie.min.js') }}" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js') }}" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/global/plugins/jquery.blockui.min.js') }}" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js') }}" type="text/javascript"></script>
     <!-- END CORE PLUGINS -->
 
     <!-- BEGIN PAGE LEVEL PLUGINS -->
-    <script src="/assets/global/plugins/moment.min.js" type="text/javascript"></script>
-    <script src="/assets/global/plugins/morris/morris.min.js" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/global/plugins/moment.min.js') }}" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/global/plugins/morris/morris.min.js') }}" type="text/javascript"></script>
     <!-- END PAGE LEVEL PLUGINS -->
 
     <!-- BEGIN THEME GLOBAL SCRIPTS -->
-    <script src="/assets/global/scripts/app.min.js" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/global/scripts/app.min.js') }}" type="text/javascript"></script>
     <!-- END THEME GLOBAL SCRIPTS -->
 
     <!-- BEGIN PAGE LEVEL SCRIPTS -->
-    <script src="/assets/pages/scripts/dashboard.min.js" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/pages/scripts/dashboard.min.js') }}" type="text/javascript"></script>
     <!-- END PAGE LEVEL SCRIPTS -->
 
     <!-- BEGIN THEME LAYOUT SCRIPTS -->
-    <script src="/assets/layout/scripts/layout.min.js" type="text/javascript"></script>
-    <script src="/assets/layout/scripts/demo.min.js" type="text/javascript"></script>
-    <script src="/assets/layout/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/layout/scripts/layout.min.js') }}" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/layout/scripts/demo.min.js') }}" type="text/javascript"></script>
+    <script src=" {{ URL::asset('assets/layout/global/scripts/quick-nav.min.js') }}" type="text/javascript"></script>
     <!-- END THEME LAYOUT SCRIPTS -->
 
     <!-- BEGIN VUE SCRIPTS -->
-    <script src="{!! mix('js/admin.js') !!}" type="text/javascript"></script>
+    <script src=" {{ URL::asset('js/admin.js') }}" type="text/javascript"></script>
     <!-- END VUE SCRIPTS -->
 
 @yield('js')

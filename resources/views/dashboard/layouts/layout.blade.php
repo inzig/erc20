@@ -22,7 +22,7 @@
 
         gtag('config', 'UA-110945392-1');
     </script>
-
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,9 +38,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="/custom-fonts/Glyphter.css">
-    <link href="{{ mix('css/noty.css') }}" rel="stylesheet">
-    <link href="{{ mix('css/dashboard.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ URL::asset('custom-fonts/Glyphter.css') }}">
+    <link href="{{ URL::asset('css/noty.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/dashboard.css') }}" rel="stylesheet">
     <style>
         html,
         body {
@@ -110,7 +110,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ mix('js/dashboard.js') }}"></script>
+    <script src="{{ URL::asset('js/dashboard.js') }}"></script>
 
     @if (session('status'))
         <script>
