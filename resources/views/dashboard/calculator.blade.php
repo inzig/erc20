@@ -1,14 +1,14 @@
 @extends('dashboard.layouts.layout')
 
-@section('title', 'ARTZ Price Calculation')
+@section('title', 'FURT Price Calculation')
 
 @section('content')
     <div class="panel panel-primary margin-top-50 margin-bottom-70 sm-top-30-p">
-        <div class="panel-heading">ARTZ Price Calculation</div>
+        <div class="panel-heading">FURT Price Calculation</div>
         <div class="panel-body padding-80">
             <div class="input-group">
                 <input id="amount" type="number" class="form-control" placeholder=" Please Enter Amount" aria-describedby="basic-addon2">
-                <span class="input-group-addon buy-token" id="basic-addon2">ARTZ</span>
+                <span class="input-group-addon buy-token" id="basic-addon2">FURT</span>
             </div>
             <h2 class="card-text text-center arrow-down" style="color:#9442e0;"> &uarr;</h2>
             <div class="form-group dash-mobile-view-off">

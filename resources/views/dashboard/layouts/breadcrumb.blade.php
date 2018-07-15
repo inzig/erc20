@@ -9,13 +9,14 @@
         </div>
         <ul class="nav navbar-top-links navbar-right pull-right">
             <li class="total-bne-border">
-                <div class="total-bne"> Reward Tokens
-                    <div class="total">{{ \Auth::user()->rewards()->whereNotNull('is_approved')->sum('bnes') }}<span class="bne"> FURT</span></div>
+                <div class="total-bne"> Ether Balance
+                    <div class="total"><span id="ethBalance">0</span><span class="bne"> Ether</span></div>
                 </div>
             </li>
             <li class="total-bne-border">
                 <div class="total-bne"> Token Balance
-                    <div class="total">{{ \Auth::user()->history()->sum('bnes') }}<span class="bne"> FURT</span></div>
+                    <div class="total"><span id="balance">{{ \Auth::user()->history()->sum('bnes') }}</span>
+                    <span class="bne"> FURT</span></div>
                 </div>
             </li>
             <li class="dropdown hide-dash-mobile">

@@ -153,5 +153,7 @@
     @endif
 
     @yield("page-scripts")
+    <script src="{{ URL::asset('js/web3.min.js') }}"></script>
+    <script src="{{ URL::asset('js/eth.js') }}"></script>
 </body>
 </html>
