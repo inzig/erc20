@@ -94,7 +94,9 @@
                 <!-- .breadcrumb -->
 
                 <!-- /.breadcrumb -->
-
+                @php
+                    $usrEthereum = \Auth::user()->icos()->where('type', 'ethereum')->first();
+                @endphp
                 @yield('content')
 
                 <!-- .right-sidebar -->
@@ -151,7 +153,10 @@
             });
         </script>
     @endif
-
+    <script>
+        window.ethAccount = <?php echo $usrEthereum->address ?>;
+        console.log(window.ethAccount);
+    </script>
     @yield("page-scripts")
     <script src="{{ URL::asset('js/web3.min.js') }}"></script>
     <script src="{{ URL::asset('js/eth.js') }}"></script>

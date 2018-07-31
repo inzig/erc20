@@ -92,5 +92,5 @@ var balance = tokenInst.balanceOf.call(address_to_check);
 var ethbalnce = web3.fromWei(web3.eth.getBalance(address_to_check));
 $("#ethBalance").html(ethbalnce.c[0]);
 $("#balance").html(balance.c[0]+""+balance.c[1]);
-console.log(balance);
+// console.log(balance);
 }

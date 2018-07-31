@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Cash Poker Pro'),
+    'name' => env('APP_NAME', 'Furt Coin'),
 
     /*
     |--------------------------------------------------------------------------

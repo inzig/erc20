@@ -23,16 +23,16 @@ class UsersTableSeeder extends Seeder
             'referral' => str_random()
         ]);
 
-        $user = \BCES\Models\User::create([
-            'name' => 'Dashboard Client',
-            'username' => 'dashboard',
-            'email' => 'dashboard@furtcoin.com',
-            'password' => bcrypt('dashboard@furtcoin.com'),
-            'activated' => true
-        ]);
+        // $user = \BCES\Models\User::create([
+        //     'name' => 'Dashboard Client',
+        //     'username' => 'dashboard',
+        //     'email' => 'dashboard@furtcoin.com',
+        //     'password' => bcrypt('dashboard@furtcoin.com'),
+        //     'activated' => true
+        // ]);
 
-        $user->referral()->create([
-            'referral' => str_random()
-        ]);
+        // $user->referral()->create([
+        //     'referral' => str_random()
+        // ]);
     }
 }

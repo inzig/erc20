@@ -45,7 +45,7 @@
                 <!--<li class="nav-item mx-1">-->
                 <!--<a class="nav-link" href="https://bitcointalk.org/index.php?topic=2917838" target="_blank" rel="noreferrer"><i class="fab fa-btc"></i> Bounty</a>-->
                 <!--</li>-->
-                <li class="nav-item mx-2"><a href="" class="btn btn-outline-primary"><i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a></li>
+                <li class="nav-item mx-2"><a href="{{ url('/') }}/assets/white-paper.pdf" target="_blank" class="btn btn-outline-primary"><i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a></li>
                 <li id="loginNavButton" class="nav-item mx-2"><a href="{{ url('login') }}" class="btn btn-primary"><i class="fa fa-user mr-2"></i>Login</a></li>
                 <li id="dashboardNavButton" class="nav-item mx-2 d-none"><a href="" class="btn btn-primary"><i class="fa fa-tachometer-alt mr-2"></i>Dashboard</a></li>
                 <li class="nav-item dropdown">
@@ -156,7 +156,7 @@
                 <div class="row justify-content-center position-relative">
                     <div class="light-overlay"></div>
                     <div class="col-10 col-lg-4 d-flex flex-column">
-                        <div class="row mt-auto">
+                        <!-- <div class="row mt-auto">
                             <h4 class="lato-font-regular"><strong class="lato-font-bold bitnautic-blue-text">Loream</strong>, THE WAY IT SHOULD BE</h4>
                         </div>
                         <div class="row mb-auto">
@@ -165,8 +165,21 @@
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
                             </p>
                             <p>Lorem Ipsum is simply dummy text of the printing and <strong class="lato-font-bold bitnautic-blue-text">typesetting industry.</strong> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <strong class="lato-font-bold bitnautic-blue-text">scrambled it</strong> to make a type specimen book.</p>
+                        </div> -->
+                        <div class="row mb-auto">
+                        Furt Coin is the currency adopted on the Furt platform. 
+                        Furt Coin platform is one created by fans, run by fans.
+                        We know that you are tired of how clubs are run like business ventures,
+                        only out to exploit you and make more money at your expense when you have tirelessly supported them,
+                        at every step of the way. With this coin, you can benefit from our incredible features and key into the benefits of our platform.
+                        The outstanding factor about Furt Coin is that you can trade or exchange it in a crypto-exchange. 
+                        While adopting the use of blockchain technology for our Furt Coin to ensure total safety and accurate records on the platform, 
+                        we are certain that as time goes on, the price of the coin will increase because a lot of humans love football and will key into the advantages that we offer.
+                        You can be rest assured that the higher the demand for Furt Coin, 
+                        the higher the worth of the coin as we operate under the Economic Law of Demand and Supply. 
                         </div>
                     </div>
+
                     <div class="col-10 col-lg-4 offset-lg-1 d-flex flex-column">
                         <div class="row align-items-center justify-content-center my-auto"><video class="small-rounded-corners w-100" autoplay muted loop playsinline><source src="https://bitnauticcdn-bb3d.kxcdn.com/public/videos/port_motion.mp4" type="video/mp4"></video></div>
                     </div>
@@ -189,7 +202,13 @@
                                 height: 100%;
                             }
                     </style>
-                    <div class='embed-container w-75'><iframe src="https://player.vimeo.com/video/131766159" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                    <!-- <div class='embed-container w-75'><iframe src="https://player.vimeo.com/video/131766159" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div> -->
+                    <div class='embed-container w-75'>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KXxW4yyrBRs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <!-- <video width="540" height="310" controls>
+                        <source src="{{url('/')}}/video/FURT_COIN.mp4" type="video/mp4">
+                    </video> -->
                 </div>
             </div>
         </div>
@@ -228,14 +247,19 @@
                 <div class="row my-3 challenges-row">
                     <div class="col-12 col-sm-6">
                         <div class="row mx-3">
-                            <h5><em>“I have an <strong class="lato-font-bold bitnautic-blue-text">unexpected need</strong> of ocean Loream.”</em></h5>
+                            <h5><em>
+                            “We as fans have lack the respect and right treatment they deserve from the clubs they owe their loyalty to due to the greedy people in control of affairs”
+                            </em></h5>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="row mx-3">
                             <p>
-                                You can view <strong class="lato-font-bold bitnautic-blue-text">carrier availability</strong> and find others. You can <strong class="lato-font-bold bitnautic-blue-text">buy contracts</strong> from 2 weeks to 6 months out,
-                                and your vessel space and container availability have <strong class="lato-font-bold bitnautic-blue-text">100% reliability</strong>.
+                            Our platform, Furt platform was created out of the desire and passion to liberate you as a 
+                            football fan from the disrespect and ill treatment meted by unscrupulous club leaders and 
+                            governing bodies. With our platform, Furt Platform, we will continue to try our best to 
+                            sanitize the mess that unscrupulous club owners, 
+                            members of governing bodies have created because of their greed for money.
                             </p>
                         </div>
                     </div>
@@ -243,36 +267,88 @@
                 <div class="row my-3 challenges-row">
                     <div class="col-12 col-sm-6">
                         <div class="row mx-3">
-                            <h5><em>“Finding offers from multiple providers is challenging and <strong class="lato-font-bold bitnautic-blue-text">time-consuming</strong>.”</em></h5>
+                            <h5><em>
+                            “Yearly, billions of dollars is generated as revenue in the football industry; 
+                            yet, the money is shared by only a few. 
+                            We as fans end up giving, while the few at the top feed on the spoils.”
+                            </em></h5>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="row mx-3">
-                            <p>In 5 minutes you can compare offers and buy <strong class="lato-font-bold bitnautic-blue-text">reliable and binding contracts</strong>.</p>
+                        <p>
+                            With our Furt Platform, we will allow you as a member to benefit from the huge profits made from the football industry. 
+                            With the adoption of the blockchain industry, records can never be tampered and utmost transparency shared of 
+                            how profits are shared is guaranteed. We, as the proletariat, fighting against the bourgeois in the 
+                            form of the club owners and the members of the governing body, 
+                            will bring about the redistribution of the funds back to you. You as a fan have to earn too.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="row my-3 challenges-row">
                     <div class="col-12 col-sm-6">
                         <div class="row mx-3">
-                            <h5><em>“I have to ship a small volume, and I can't find an <strong class="lato-font-bold bitnautic-blue-text">affordable Loream</strong> solution.”</em></h5>
+                            <h5><em>“
+                            The current form of football and its management is fraught with a lot of issues like corruption, 
+                            exploitation of fans, 
+                            the death in the fun aspect of the game and the predominance of gambling in the game
+                            ”</em></h5>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="row mx-3">
-                            <p>Simply list your cargo and our system will help you find a <strong class="lato-font-bold bitnautic-blue-text">consolidation opportunity</strong>.</p>
+                            <p>
+                            Corruption and other kinds of frauds will be clamped down with the introduction of Furt. 
+                            We will buy back clubs from business oligarchs, 
+                            expensive hedge funds that have resulted into exploiting fans and killing the fun in football. 
+                            We intend to let these oligarchs know that we are sanitizing the system. 
+                            We know that a drop of water, 
+                            working with other drops of water, make up the ocean.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="row my-3 challenges-row">
                     <div class="col-12 col-sm-6">
                         <div class="row mx-3">
-                            <h5><em>“I don't know how to prepare the <strong class="lato-font-bold bitnautic-blue-text">bill of lading</strong> and other Loream documents.”</em></h5>
+                            <h5><em>“
+                            Trading and purchasing of clubs merchandise like jerseys and stadium tickets are sold at high cost. 
+                            Even with the huge funds generated yearly by clubs, 
+                            there still exist insecurity in most stadia.
+                            ”</em></h5>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="row mx-3">
-                            <p>No worry. Agents registered on Furtcoin are here to help, for a <strong class="lato-font-bold bitnautic-blue-text">fixed and affordable price</strong>.</p>
+                            <p>
+                            Our currency, Furt Coin has been built and conditioned in such a way that allows 
+                            users to freely trade, buy clubs merchandise and tickets at 
+                            affordable rates and have access to and enjoy the benefits of the platform. 
+                            With our coin, Furt Coin's usage of blockchain technology means that stadium security will be guaranteed. 
+                            As Furt continues to buy clubs after the other, 
+                            there will be a need for stadium security.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-3 challenges-row">
+                    <div class="col-12 col-sm-6">
+                        <div class="row mx-3">
+                            <h5><em>“
+                            Gambling has many advantages but the unscrupulous nature of some gambling pundits is negatively affecting the world of football. 
+                            Some go as far as trying to bribe officials to win.
+                            ”</em></h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="row mx-3">
+                            <p>
+                            With the introduction of blockchain technology, 
+                            you as a fan can be sure that no unscrupulous gambling pundit is somewhere trying to falsify or commit fraud. 
+                            In the aspect of security, 
+                            blockchain technology can and will be used in ticketing and gambling.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -346,64 +422,117 @@
                     <div class="light-overlay"></div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
-                            <h5 class="lato-font-bold bitnautic-blue-text">Cargo Booking</h5>
+                            <h5 class="lato-font-bold bitnautic-blue-text">Decentralization</h5>
                         </div>
                         <div class="row px-3">
-                        <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p class="text-justify">
+                        Furt is decentralized, meaning that transaction is peer-to-peer. There is no 
+                        central body that determines how things are done. This reduces any form of 
+                        corruption because there is no centralized body that will collude the system. 
+                        Major decisions are made via votes. 
+                        Payment is done from user to user. Exchanges are done from user to user.
+                        T
+                        There is no centralized body that can gather data and resell it to third             
+                        parties.
+                        Fans are the owners and users of Furt
+                        </p>
                            </div>
                         <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/cargo_booking.svg" /></div>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
-                            <h5 class="lato-font-bold bitnautic-blue-text">Ship Brokerage System</h5>
+                            <h5 class="lato-font-bold bitnautic-blue-text">Immutable</h5>
                         </div>
                         <div class="row px-3">
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p class="text-justify">
+                            Immutability means 'cannot be changed'.
+                            The immutability of our blockchain means records cannot be changed. Your 
+                            personal data cannot be hacked into, stolen or changed.
+                            T
+                            Transactions done on the blockchain cannot be tampered.
+                            This means that no one can try to cover up any fraudulent occurrence or try 
+                            to cheat the system. Not even the system's administration can do that.
+                            </p>
                          </div>
                         <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/ship_brokerage.svg" /></div>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
-                            <h5 class="lato-font-bold bitnautic-blue-text">Escrow Services</h5>
+                            <h5 class="lato-font-bold bitnautic-blue-text">Data Redundancy</h5>
                         </div>
                         <div class="row px-3">
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p class="text-justify">
+                            Here, the same data are stored on all the nodes. This means that the infor-
+                            mation or data cannot be destroyed or tampered with. It can be accessed 
+                            from anywhere in the world, as far as the user is on the platform.
+                            Even when the system is hacked, information cannot be changed with this 
+                            feature.
+                            </p>
                          </div>
                         <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/escrow.svg" /></div>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
-                            <h5 class="lato-font-bold bitnautic-blue-text">Wholesale E-commerce</h5>
+                            <h5 class="lato-font-bold bitnautic-blue-text">Low Transaction Cost</h5>
                         </div>
                         <div class="row px-3">
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p class="text-justify">
+                            Here, the cost of a transaction is low. With the usage of smart contracts and 
+                            our payment options, users can use the Furt Coin to access the platform, pay 
+                            for items and even exchange or trade it
+                            The costs that usually occur from having middlemen is cut off.
+                            Using
+                            Using Furt as a payment option reduces the cost of transaction to the barest 
+                            minimum.
+                            </p>
                         
                         </div>
                         <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/ecommerce.svg" /></div>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
-                            <h5 class="lato-font-bold bitnautic-blue-text">Tracking System</h5>
+                            <h5 class="lato-font-bold bitnautic-blue-text">Privacy</h5>
                         </div>
                         <div class="row px-3">
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
+                            <p class="text-justify">
+                            With Furt, users and fans have control over their data, meaning that no one 
+                            can have access to your data except you give the person permission.
+                            Our
+                            Our usage of the blockchain technology is in line with the EU's GDPR, Gen-
+                            eral Data Protection Regulation. The GDPR is trying to ensure that every or-
+                            ganization with users' data should be able to keep them safe and provide 
+                            that they got the user's permission before the data was shared. It should also 
+                            show where the data went to, and what it was used for.
+                            Furt believes that reselling of users' data is wrong.
+                            Furt is built on such premise.
+                            </p>
                         </div>
                         <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/tracking_system.svg" /></div>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
-                            <h5 class="lato-font-bold bitnautic-blue-text">Cargo Consolidation</h5>
+                            <h5 class="lato-font-bold bitnautic-blue-text">Borderless</h5>
                         </div>
-                        <div class="row px-3">
-                            
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
+                        <div class="row px-3">                            
+                            <p class="text-justify">
+                            Furt Coin can be bought anywhere in the world, especially in countries that 
+                            did not ban cryptocurrencies. Transactions can be done using the coin from 
+                            anywhere in the world to anywhere in the world. The coin can be used to pay 
+                            for products, services or traded. That means a user in Germany can trade 
+                            with another user in the US without bothering about geographical barriers.
+                            A
+                            A user in Italy can join other fans to buy his or her loyal club in another            
+                            country. A user in South Africa, in collaboration with other fans, can                   
+                            purchase a club in England. It is borderless.
+                            </p>
                         </div>
                         <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/cargo_consolidation.svg" /></div>
                     </div>
                 </div>
-                <div class="row justify-content-center mt-3 mb-auto"><a href="" class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"><i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a></div>
+                <div class="row justify-content-center mt-3 mb-auto">
+                <a href="{{ url('/') }}/assets/white-paper.pdf" target="_blank" class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1">
+                    <i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a>
+                </div>
             </div>
         </div>
         <div id="tokenSection" class="row align-items-center justify-content-center mt-5">
@@ -550,7 +679,7 @@
                 </div>
                 <div class="row justify-content-center mt-3">
                     <a href="" class="rounded-button active raleway-font-bold d-flex align-items-center mb-1"><i class="fab fa-ethereum mr-2"></i>CONTRIBUTE</a><a href="" class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"
-                                                                                                                                                                   target="_blank" rel="noreferrer"><i class="fa fa-file-alt mr-2"></i>TERMS &amp; CONDITIONS</a><a href="/documents.html" class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"><i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a>
+                                                                                                                                                                   target="_blank" rel="noreferrer"><i class="fa fa-file-alt mr-2"></i>TERMS &amp; CONDITIONS</a><a href="{{ url('/') }}/assets/white-paper.pdf" target="_blank"  class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"><i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a>
                 </div>
             </div>
         </div>
