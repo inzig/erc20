@@ -15,7 +15,7 @@ class AdminUser
      */
     public function handle($request, Closure $next)
     {
-        return $request->user();
+        // return $request->user();
         if (!$request->user() || !$request->user()->isAdmin()) {
             if ($request->expectsJson())
                 return response()->json(['error' => 'Unauthenticated.'], 401);

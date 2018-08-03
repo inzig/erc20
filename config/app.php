@@ -199,7 +199,8 @@ return [
         // BCES\Providers\BroadcastServiceProvider::class,
         BCES\Providers\EventServiceProvider::class,
         BCES\Providers\RouteServiceProvider::class,
-
+        \Kevupton\LaravelCoinpayments\Providers\LaravelCoinpaymentsServiceProvider::class,
+        
     ],
 
     /*

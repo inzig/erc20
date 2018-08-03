@@ -7,6 +7,7 @@
     "require": {
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
+        "kevupton/laravel-coinpayments": "^1.1",
         "laravel/framework": "5.5.*",
         "laravel/passport": "^4.0",
         "laravel/tinker": "~1.0",
@@ -59,5 +60,11 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
+    },
+    "repositories": {
+        "packagist": {
+          "type": "composer",
+          "url": "https://packagist.org"
+        }
     }
 }
