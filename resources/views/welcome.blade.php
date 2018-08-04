@@ -26,6 +26,16 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,800i" rel="stylesheet">
+    <style>
+    body{
+        margin-top: -2%;
+    }
+    .h-100 {
+        height: auto !important;
+        /* width: auto !important; */
+    }
+    
+    </style>
 </head>
 <body>
     <nav id="topNavbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
@@ -415,7 +425,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-12 col-sm-6">
-                        <div class="row justify-content-center mt-3"><img src="bootstrap/img/mockup.png" class="w-100 h-100" /></div>
+                        <div class="row justify-content-center mt-3"><img src="bootstrap/img/mockup.png" /></div>
                     </div>
                 </div>
                 <div class="row justify-content-center position-relative">
