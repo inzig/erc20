@@ -1,6 +1,6 @@
 @extends('dashboard.layouts.layout')
 
-@section('title', 'Buy ARTZ Tokens')
+@section('title', 'Buy FURT COINs')
 
 @section('content')
     <purchase-tokens></purchase-tokens>

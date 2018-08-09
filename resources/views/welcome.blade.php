@@ -34,7 +34,9 @@
         height: auto !important;
         /* width: auto !important; */
     }
-    
+    .point-img{
+        height: 50% !important;
+    }
     </style>
 </head>
 <body>
@@ -447,7 +449,8 @@
                         Fans are the owners and users of Furt
                         </p>
                            </div>
-                        <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/cargo_booking.svg" /></div>
+                        <div class="row justify-content-center mt-auto">
+                        <img class="h-100 w-50 point-img" src="bootstrap/img/Decentralization.png" /></div>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
@@ -464,7 +467,8 @@
                             to cheat the system. Not even the system's administration can do that.
                             </p>
                          </div>
-                        <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/ship_brokerage.svg" /></div>
+                        <div class="row justify-content-center mt-auto">
+                        <img class="h-100 w-50 point-img" src="bootstrap/img/Immutable.png" /></div>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
@@ -479,7 +483,8 @@
                             feature.
                             </p>
                          </div>
-                        <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/escrow.svg" /></div>
+                        <div class="row justify-content-center mt-auto">
+                        <img class="h-100 w-50 point-img" src="bootstrap/img/Data-Redundancy.png" /></div>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
@@ -497,7 +502,8 @@
                             </p>
                         
                         </div>
-                        <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/ecommerce.svg" /></div>
+                        <div class="row justify-content-center mt-auto">
+                        <img class="h-100 w-50 point-img" src="bootstrap/img/Low-Transaction-Cost.png" /></div>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
@@ -517,7 +523,8 @@
                             Furt is built on such premise.
                             </p>
                         </div>
-                        <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/tracking_system.svg" /></div>
+                        <div class="row justify-content-center mt-auto">
+                        <img class="h-100 w-50 point-img" src="bootstrap/img/Privacy.png" /></div>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-column my-4">
                         <div class="row px-3">
@@ -536,7 +543,8 @@
                             purchase a club in England. It is borderless.
                             </p>
                         </div>
-                        <div class="row justify-content-center mt-auto"><img class="h-100 w-50" src="bootstrap/img/cargo_consolidation.svg" /></div>
+                        <div class="row justify-content-center mt-auto">
+                        <img class="h-100 w-50 point-img" src="bootstrap/img/borderless.png" /></div>
                     </div>
                 </div>
                 <div class="row justify-content-center mt-3 mb-auto">
@@ -562,7 +570,8 @@
                                 <div class="row">Token Symbol:</div>
                             </div>
                             <div class="col-4">
-                                <div class="row justify-content-end"><img src="bootstrap/img/bitnautic_logo_black_small.png" width="24" height="22" /><span>BTNT</span></div>
+                                <div class="row justify-content-end">
+                                <span>FURT</span></div>
                             </div>
                         </div>
                         <div class="row">
@@ -578,7 +587,7 @@
                                 <div class="row">Total Token Supply:</div>
                             </div>
                             <div class="col-4">
-                                <div class="row justify-content-end text-right">50,000,000 BTNT</div>
+                                <div class="row justify-content-end text-right">14,360,000,000 FURT</div>
                             </div>
                         </div>
                         <div class="row">
@@ -586,7 +595,7 @@
                                 <div class="row">Initial Distribution:</div>
                             </div>
                             <div class="col-4">
-                                <div class="row justify-content-end text-right">35,000,000 BTNT</div>
+                                <div class="row justify-content-end text-right">5,000,000,000 FURT</div>
                             </div>
                         </div>
                         <div class="row">
@@ -602,7 +611,7 @@
                                 <div class="row">Exchange Rate:</div>
                             </div>
                             <div class="col-5">
-                                <div class="row justify-content-end">1 ETH = 500 BTNT</div>
+                                <div class="row justify-content-end">0.007 ETH = 1 FURT</div>
                             </div>
                         </div>
                         <div class="row">
@@ -610,7 +619,7 @@
                                 <div class="row">Soft Cap:</div>
                             </div>
                             <div class="col-3">
-                                <div class="row justify-content-end">5,000 ETH</div>
+                                <div class="row justify-content-end">17,000 ETH</div>
                             </div>
                         </div>
                         <div class="row">
@@ -618,7 +627,7 @@
                                 <div class="row">Hard Cap:</div>
                             </div>
                             <div class="col-4">
-                                <div class="row justify-content-end">50,000 ETH</div>
+                                <div class="row justify-content-end">60,000 ETH</div>
                             </div>
                         </div>
                         <div class="row">
@@ -626,7 +635,7 @@
                                 <div class="row">Pre-ICO Starts:</div>
                             </div>
                             <div class="col-4">
-                                <div class="row justify-content-end">May 1, 2018</div>
+                                <div class="row justify-content-end">Aug 24, 2018</div>
                             </div>
                         </div>
                         <div class="row">
@@ -634,7 +643,7 @@
                                 <div class="row">Pre-ICO Ends:</div>
                             </div>
                             <div class="col-4">
-                                <div class="row justify-content-end">May 31, 2018</div>
+                                <div class="row justify-content-end">Sep 27, 2018</div>
                             </div>
                         </div>
                         <div class="row">
@@ -642,7 +651,7 @@
                                 <div class="row">Main ICO Starts:</div>
                             </div>
                             <div class="col-4">
-                                <div class="row justify-content-end">June 1, 2018</div>
+                                <div class="row justify-content-end">Sep 28, 2018</div>
                             </div>
                         </div>
                         <div class="row">
@@ -650,7 +659,7 @@
                                 <div class="row">Main ICO Ends:</div>
                             </div>
                             <div class="col-4">
-                                <div class="row justify-content-end">July 30, 2018</div>
+                                <div class="row justify-content-end">Nov 18, 2018</div>
                             </div>
                         </div>
                         <div class="row justify-content-center mt-3"><strong class="bitnautic-blue-text">No new tokens will ever be created</strong></div>
@@ -662,7 +671,8 @@
                         </div>
                         <div class="row justify-content-center align-items-center">
                             <div class="col-10">
-                                <div class="row"><img class="h-100 w-100" src="bootstrap/img/ico_bonus.svg" /></div>
+                                <div class="row">
+                                <img class="h-100 w-100" src="bootstrap/img/ico_bonus.png" /></div>
                             </div>
                         </div>
                     </div>
@@ -672,7 +682,8 @@
                         </div>
                         <div class="row justify-content-center align-items-center">
                             <div class="col-10">
-                                <div class="row"><img class="h-100 w-100" src="bootstrap/img/token_allocation.svg" /></div>
+                                <div class="row">
+                                <img class="h-100 w-100 point-img" src="bootstrap/img/token_allocation.svg" /></div>
                             </div>
                         </div>
                     </div>
@@ -682,7 +693,7 @@
                         </div>
                         <div class="row justify-content-center align-items-center">
                             <div class="col-10">
-                                <div class="row"><img class="h-100 w-100" src="bootstrap/img/funds_allocation.svg" /></div>
+                                <div class="row"><img class="h-100 w-100 point-img" src="bootstrap/img/funds_allocation.svg" /></div>
                             </div>
                         </div>
                     </div>
@@ -718,7 +729,7 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Jan 2018</h6>
+                                                <h6>Aug 2018</h6>
                                                 <p>
                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                     tempor incididunt ut labore et dolore magna aliqua.
@@ -730,7 +741,7 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Feb 2018</h6>
+                                                <h6>Sep 2018</h6>
                                                 <p>
                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                     tempor incididunt ut labore et dolore magna aliqua.
@@ -742,7 +753,7 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Mar 2018</h6>
+                                                <h6>Nov 2018</h6>
                                                 <p>
                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                     tempor incididunt ut labore et dolore magna aliqua.
@@ -754,7 +765,7 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Apr 2018</h6>
+                                                <h6>Dec 2018</h6>
                                                 <p>
                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                     tempor incididunt ut labore et dolore magna aliqua.
@@ -766,7 +777,7 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>May 2018</h6>
+                                                <h6>Jan 2019</h6>
                                                 <p>
                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                     tempor incididunt ut labore et dolore magna aliqua.

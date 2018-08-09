@@ -13,7 +13,7 @@
 
             <div key="amount-form" v-if="viewType!==''" class="panel panel-primary margin-bottom-50" id="calculation-container">
                 <div class="panel-heading">
-                    Buy ARTZ  tokens with {{viewSlug.toUpperCase()}}
+                    Buy FURT tokens with {{viewSlug.toUpperCase()}}
                     <i v-if="loading" class="fa fa-refresh fa-spin m-l-20"></i>
                     <div class="panel-action"><a href="javascript:" @click="closeTokenBuy"><i class="ti-close"></i></a></div>
                 </div>
@@ -36,12 +36,12 @@
                             </p>
 
                             <p class="margin-bottom-50">
-                                <span class="font-2x text-white-color">Amount of ARTZ  tokens</span>
+                                <span class="font-2x text-white-color">Amount of FURT  tokens</span>
                                 <br>
                                 <span class="help-block dark-text-color">Including bonus <span class="text-default">({{dataList.discount}}%): {{bonus}}</span> ARTZ  </span>
                             </p>
 
-                            <p class="text-white-color">This is an estimated amount of ARTZ  tokens which you will receive.</p>
+                            <p class="text-white-color">This is an estimated amount of FURT  tokens which you will receive.</p>
 
                             <div class="form-group margin-bottom-50">
                                 <p class="form-control-static" v-html="total"></p>
@@ -73,7 +73,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <p class="form-control-static text-center qr-amount">You will receive <b>{{total}}</b> ARTZ  tokens</p>
+                                    <p class="form-control-static text-center qr-amount">You will receive <b>{{total}}</b> FURT  tokens</p>
                                 </div>
 
                                 <div v-if="!isMobile" class="margin-top-30">
