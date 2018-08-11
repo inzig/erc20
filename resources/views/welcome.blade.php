@@ -103,12 +103,12 @@
                     <h1 class="dark-text-shadow baner-text">WHO OWNS FOOTBALL</h1>
                 </div>
                 <div class="row justify-content-center text-center mt-auto">
-                    <h3 id="countdownLabel" class="dark-text-shadow"><a href="">15% BONUS VALID FOR THE NEXT</a></h3>
+                    <h3 id="countdownsLabel" class="dark-text-shadow">Time to start Pre ICO sale</h3>
                 </div>
                 <div class="d-flex justify-content-center dark-text-shadow">
                     <div class="d-flex flex-column align-items-center">
                         <div class="countdown-circle d-flex align-items-center justify-content-center mx-2">
-                            <h2 id="daysLabel" class="lato-font-regular dark-text-shadow p-0 m-0">00</h2>
+                            <h2 id="dayLabel" class="lato-font-regular dark-text-shadow p-0 m-0">00</h2>
                         </div>
                         <p class="dark-text-shadow m-0 mb-auto">DAYS</p>
                     </div>
@@ -117,7 +117,7 @@
                     </span>
                     <div class="d-flex flex-column align-items-center">
                         <div class="countdown-circle d-flex align-items-center justify-content-center mx-2">
-                            <h2 id="hoursLabel" class="lato-font-regular dark-text-shadow p-0 m-0">00</h2>
+                            <h2 id="hourLabel" class="lato-font-regular dark-text-shadow p-0 m-0">00</h2>
                         </div>
                         <p class="dark-text-shadow m-0 mb-auto">HOURS</p>
                     </div>
@@ -126,7 +126,7 @@
                     </span>
                     <div class="d-flex flex-column align-items-center">
                         <div class="countdown-circle d-flex align-items-center justify-content-center mx-2">
-                            <h2 id="minutesLabel" class="lato-font-regular dark-text-shadow p-0 m-0">00</h2>
+                            <h2 id="minuteLabel" class="lato-font-regular dark-text-shadow p-0 m-0">00</h2>
                         </div>
                         <p class="dark-text-shadow m-0 mb-auto">MINUTES</p>
                     </div>
@@ -135,7 +135,7 @@
                     </span>
                     <div class="d-flex flex-column align-items-center">
                         <div class="countdown-circle d-flex align-items-center justify-content-center mx-2">
-                            <h2 id="secondsLabel" class="lato-font-regular dark-text-shadow p-0 m-0">00</h2>
+                            <h2 id="secondLabel" class="lato-font-regular dark-text-shadow p-0 m-0">00</h2>
                         </div>
                         <p class="dark-text-shadow m-0 mb-auto">SECONDS</p>
                     </div>
@@ -244,10 +244,10 @@
                 <div class="row justify-content-center mb-3 mt-5">
                     <h1 class="lato-font-regular text-center">Challenges and <strong class="lato-font-bold bitnautic-blue-text">Solutions</strong></h1>
                 </div>
-                <div class="row justify-content-center">
+                <!-- <div class="row justify-content-center">
                     <div id="shippersChallengesButton" class="rounded-button active mx-3">For Shippers</div>
                     <div id="carriersChallengesButton" class="rounded-button mx-3">For Carriers</div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="row justify-content-center mt-5 d-none d-sm-flex">
@@ -715,8 +715,10 @@
                     </div>
                 </div>
                 <div class="row justify-content-center mt-3">
-                    <a href="" class="rounded-button active raleway-font-bold d-flex align-items-center mb-1"><i class="fab fa-ethereum mr-2"></i>CONTRIBUTE</a><a href="" class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"
-                                                                                                                                                                   target="_blank" rel="noreferrer"><i class="fa fa-file-alt mr-2"></i>TERMS &amp; CONDITIONS</a><a href="{{ url('/') }}/assets/white-paper.pdf" target="_blank"  class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"><i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a>
+                    <a href="" class="rounded-button active raleway-font-bold d-flex align-items-center mb-1"><i class="fab fa-ethereum mr-2"></i>CONTRIBUTE</a>
+                    <!-- <a href="" class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"
+                    target="_blank" rel="noreferrer"><i class="fa fa-file-alt mr-2"></i>TERMS &amp; CONDITIONS</a> -->
+                    <a href="{{ url('/') }}/assets/white-paper.pdf" target="_blank"  class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"><i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a>
                 </div>
             </div>
         </div>
@@ -1145,6 +1147,28 @@
     <script src="bootstrap/js/instafeed.min.js"></script>
     <script src="bootstrap/js/en.js"></script>
     <script src="bootstrap/js/index.js"></script>
+    <script>
+        (function(){
+            var countDownDate = new Date("Aug 23, 2018 00:00:00").getTime();
+            var x = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                $("#dayLabel").html(days);
+                $("#hourLabel").html(hours);
+                $("#minuteLabel").html(minutes);
+                $("#secondLabel").html(seconds);
+                
+                if (distance < 0) {
+                    clearInterval(x);
+                    // document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        })();        
+    </script>
 
 </body>
 </html>
