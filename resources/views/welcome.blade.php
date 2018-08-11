@@ -42,6 +42,13 @@
         width: 100%;
         height: 300px;
     }
+
+    @media only screen and (max-width: 900px) {
+        .img-mockup{
+            height: 20%;
+        }
+    }
+    
     </style>
 </head>
 <body>
@@ -434,7 +441,9 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-12 col-sm-6">
-                        <div class="row justify-content-center mt-3"><img src="bootstrap/img/mockup.png" /></div>
+                        <div class="row justify-content-center mt-3">
+                        <img src="bootstrap/img/mockup.png" class="img-mockup"/>
+                        </div>
                     </div>
                 </div>
                 <div class="row justify-content-center position-relative">
