@@ -35,14 +35,21 @@
         /* width: auto !important; */
     }
     .point-img{
-        height: 50% !important;
+        height: 200px !important;
+        width: 200px !important;
+    }
+    .twiter-image{
+        width: 100%;
+        height: 300px;
     }
     </style>
 </head>
 <body>
-    <nav id="topNavbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#homeSection"><img id="navbarLogo" class="bitnautic-logo" src="bootstrap/img/logo.png" alt="Furtcoin logo"></a><button id="navbarToggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                                                                                                                                                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav  class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#homeSection">
+        <img id="navbarLogo" class="bitnautic-logo" src="bootstrap/img/logo.png" alt="Furtcoin logo"></a>
+        <button id="navbarToggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -54,9 +61,7 @@
                 <li class="nav-item mx-1"><a class="nav-link" href="#roadmap-section">Roadmap</a></li>
                 <li class="nav-item mx-1"><a class="nav-link" href="#teamSection">Team</a></li>
                 <li class="nav-item mx-1"><a class="nav-link" href="" target="_blank" rel="noreferrer"><i class="fab fa-medium"></i> Blog</a></li>
-                <!--<li class="nav-item mx-1">-->
-                <!--<a class="nav-link" href="https://bitcointalk.org/index.php?topic=2917838" target="_blank" rel="noreferrer"><i class="fab fa-btc"></i> Bounty</a>-->
-                <!--</li>-->
+                
                 <li class="nav-item mx-2"><a href="{{ url('/') }}/assets/white-paper.pdf" target="_blank" class="btn btn-outline-primary"><i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a></li>
                 <li id="loginNavButton" class="nav-item mx-2"><a href="{{ url('login') }}" class="btn btn-primary"><i class="fa fa-user mr-2"></i>Login</a></li>
                 <li id="dashboardNavButton" class="nav-item mx-2 d-none"><a href="" class="btn btn-primary"><i class="fa fa-tachometer-alt mr-2"></i>Dashboard</a></li>
@@ -72,6 +77,7 @@
             </ul>
         </div>
     </nav>
+
     <div id="particlesDiv"></div>
     <div class="container-fluid raleway-font-regular">
         <div id="homeSection" class="row align-items-center justify-content-center position-relative">
@@ -708,9 +714,9 @@
                 <div class="container">
                     <div class="tittle_section center">
                         <h2 class="sub-title  aos-init aos-animate" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="1000"><span class="yellow-thm">Project</span><strong> Roadmap</strong></h2>
-                        <p class="sub-content">
+                        <!-- <p class="sub-content">
                             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, and going discovered the undoubtable source.
-                        </p>
+                        </p> -->
                     </div>
                     <div class="row">
                         <div class="col-md-12">
@@ -729,10 +735,9 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Aug 2018</h6>
+                                                <h6>June 2018</h6>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
+                                                    White paper and concept created by founder.
                                                 </p>
                                             </div>
                                         </div>
@@ -741,10 +746,9 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Sep 2018</h6>
+                                                <h6>July 2018</h6>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
+                                                    Website launch.
                                                 </p>
                                             </div>
                                         </div>
@@ -765,10 +769,9 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Dec 2018</h6>
+                                                <h6>Aug 2018</h6>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
+                                                    Pre ice started.
                                                 </p>
                                             </div>
                                         </div>
@@ -777,10 +780,9 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Jan 2019</h6>
+                                                <h6>November 2018</h6>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
+                                                    ICO ends.
                                                 </p>
                                             </div>
                                         </div>
@@ -791,10 +793,9 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Jan 2019</h6>
+                                                <h6>Dec 2018</h6>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
+                                                    Furtcoin in major exchanges.
                                                 </p>
                                             </div>
                                         </div>
@@ -803,10 +804,9 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Feb 2019</h6>
+                                                <h6>March 2019</h6>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
+                                                    Relaunch of website with fan page and development of fan community.
                                                 </p>
                                             </div>
                                         </div>
@@ -815,222 +815,13 @@
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                <h6>Mar 2019</h6>
+                                                <h6>June 2019</h6>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
+                                                    Additional development and planning continue and merging with football related companies.
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="timeline-step" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Apr 2019</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>May 2019</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="timeline-steps3" class="timeline-steps tab-pane fade">
-                                        <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner selected-rm-pointer">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Jan 2020</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner selected-rm-pointer">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Feb 2020</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Mar 2020</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Apr 2020</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>May 2020</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="timeline-steps4" class="timeline-steps tab-pane fade">
-                                        <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner selected-rm-pointer">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Jan 2021</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner selected-rm-pointer">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Feb 2021</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Mar 2021</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Apr 2021</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>May 2021</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="timeline-steps5" class="timeline-steps tab-pane fade">
-                                        <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner selected-rm-pointer">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Jan 2022</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner selected-rm-pointer">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Feb 2022</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Mar 2022</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>Apr 2022</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <h6>May 2022</h6>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua.
-                                                </p>
-                                            </div>
+                                        
                                         </div>
                                     </div>
                                 </div>
@@ -1046,7 +837,7 @@
         @include('subpages.team')
 
 
-        @include('subpages.partners')
+        {{-- @include('subpages.partners') --}}
         <div class="row align-items-center justify-content-center mt-5">
             <div class="col-12">
                 <!-- <div class="row justify-content-center">
@@ -1104,12 +895,12 @@
                 </div>
                 <div class="row justify-content-center position-relative">
                     <div class="light-overlay"></div>
-                    <div class="col-6 col-sm-4 offset-sm-1 col-lg-2 offset-lg-0 m-3 d-flex align-items-center justify-content-center">
+                    <!-- <div class="col-6 col-sm-4 offset-sm-1 col-lg-2 offset-lg-0 m-3 d-flex align-items-center justify-content-center">
                         <div class="row"><a href="" target="_blank" rel="noreferrer"><img class="w-100 h-100" src="bootstrap/img/bancor.jpeg" alt="eventlogo" /></a></div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="row justify-content-center">
-                    <h6 class="text-center">BTNT Tokens will be listed after the end of the ICO</h6>
+                    <h6 class="text-center">FURT Tokens will be listed after the end of the ICO</h6>
                 </div>
             </div>
         </div>
@@ -1132,18 +923,90 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-center justify-content-center mt-5">
-            <div class="col-12">
-                <div class="row justify-content-center">
-                    <h1 class="lato-font-regular"><i class="fab fa-instagram"></i> Latest <strong class="lato-font-bold bitnautic-blue-text">Instagrams</strong></h1>
-                </div>
-                <div id="instafeed" class="row justify-content-center">
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 my-3"><div class="row px-3"><div class="col-12 small-rounded-corners bg-white-shadow scale-on-hover pointer-cursor" onclick="targetBlankOpen('https://www.instagram.com/p/Bj9V7d4BKCr/')"><div class="row"><img src="https://scontent.cdninstagram.com/vp/93fa29936d6d20ea9bcff8c68c5aedc9/5BA96EF2/t51.2885-15/s640x640/sh0.08/e35/34635993_200225777279987_2548240406370320384_n.jpg?_nc_eui2=AeGMZVhFlqYVOz7fRZDPe1VADAXSRFrG313Ep-8ghNvhjt8mruD2WJWWwUaDn82pEsvGYgT14sZqoXiPGjDlFGm1" class="w-100 h-100"></div><div class="row mx-2 mt-2"><h5><svg class="svg-inline--fa fa-heart fa-w-16 fa-fw" aria-hidden="true" data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg><!-- <i class="far fa-heart fa-fw"></i> -->192 <svg class="svg-inline--fa fa-comment fa-w-16 fa-fw ml-1" aria-hidden="true" data-prefix="far" data-icon="comment" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg><!-- <i class="far fa-comment fa-fw ml-1"></i> -->3</h5></div><div class="row mx-2 my-auto"><p>Some friends from InsCoin came to our office this morning... Stay Tuned for more!</p></div></div></div></div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 my-3"><div class="row px-3"><div class="col-12 small-rounded-corners bg-white-shadow scale-on-hover pointer-cursor" onclick="targetBlankOpen('https://www.instagram.com/p/Bj9V7d4BKCr/')"><div class="row"><img src="https://scontent.cdninstagram.com/vp/93fa29936d6d20ea9bcff8c68c5aedc9/5BA96EF2/t51.2885-15/s640x640/sh0.08/e35/34635993_200225777279987_2548240406370320384_n.jpg?_nc_eui2=AeGMZVhFlqYVOz7fRZDPe1VADAXSRFrG313Ep-8ghNvhjt8mruD2WJWWwUaDn82pEsvGYgT14sZqoXiPGjDlFGm1" class="w-100 h-100"></div><div class="row mx-2 mt-2"><h5><svg class="svg-inline--fa fa-heart fa-w-16 fa-fw" aria-hidden="true" data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg><!-- <i class="far fa-heart fa-fw"></i> -->192 <svg class="svg-inline--fa fa-comment fa-w-16 fa-fw ml-1" aria-hidden="true" data-prefix="far" data-icon="comment" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg><!-- <i class="far fa-comment fa-fw ml-1"></i> -->3</h5></div><div class="row mx-2 my-auto"><p>Some friends from InsCoin came to our office this morning... Stay Tuned for more!</p></div></div></div></div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 my-3"><div class="row px-3"><div class="col-12 small-rounded-corners bg-white-shadow scale-on-hover pointer-cursor" onclick="targetBlankOpen('https://www.instagram.com/p/Bj9V7d4BKCr/')"><div class="row"><img src="https://scontent.cdninstagram.com/vp/93fa29936d6d20ea9bcff8c68c5aedc9/5BA96EF2/t51.2885-15/s640x640/sh0.08/e35/34635993_200225777279987_2548240406370320384_n.jpg?_nc_eui2=AeGMZVhFlqYVOz7fRZDPe1VADAXSRFrG313Ep-8ghNvhjt8mruD2WJWWwUaDn82pEsvGYgT14sZqoXiPGjDlFGm1" class="w-100 h-100"></div><div class="row mx-2 mt-2"><h5><svg class="svg-inline--fa fa-heart fa-w-16 fa-fw" aria-hidden="true" data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg><!-- <i class="far fa-heart fa-fw"></i> -->192 <svg class="svg-inline--fa fa-comment fa-w-16 fa-fw ml-1" aria-hidden="true" data-prefix="far" data-icon="comment" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg><!-- <i class="far fa-comment fa-fw ml-1"></i> -->3</h5></div><div class="row mx-2 my-auto"><p>Some friends from InsCoin came to our office this morning... Stay Tuned for more!</p></div></div></div></div>
-                </div>
+<div class="row align-items-center justify-content-center mt-5">
+   <div class="col-12">
+      <div class="row justify-content-center">
+         <h1 class="lato-font-regular"><i class="fab fa-instagram"></i> Latest <strong class="lato-font-bold bitnautic-blue-text">Instagrams</strong></h1>
+      </div>
+      <div  class="row justify-content-center">
+         <div class="col-12 col-sm-6 col-md-4 col-xl-3 my-3">
+            <div class="row px-3">
+               <div class="col-12 small-rounded-corners bg-white-shadow scale-on-hover pointer-cursor" 
+                  onclick="targetBlankOpen('https://twitter.com/furtcoin/status/1027736751568240640')">
+                  <div class="row">
+                     <img src="https://pbs.twimg.com/media/DkNBH9IWwAUC76q.jpg" class="twiter-image">
+                  </div>
+                  <div class="row mx-2 mt-2">
+                     <h5>
+                        <svg class="svg-inline--fa fa-heart fa-w-16 fa-fw" aria-hidden="true" data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                           <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                        </svg>
+                        <!-- <i class="far fa-heart fa-fw"></i> -->192 
+                        <svg class="svg-inline--fa fa-comment fa-w-16 fa-fw ml-1" aria-hidden="true" data-prefix="far" data-icon="comment" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                           <path fill="currentColor" d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path>
+                        </svg>
+                        <!-- <i class="far fa-comment fa-fw ml-1"></i> -->3
+                     </h5>
+                  </div>
+                  <div class="row mx-2 my-auto">
+                     <p>Some friends from InsCoin came to our office this morning... Stay Tuned for more!</p>
+                  </div>
+               </div>
             </div>
-        </div>
+         </div>
+         <div class="col-12 col-sm-6 col-md-4 col-xl-3 my-3">
+            <div class="row px-3">
+               <div class="col-12 small-rounded-corners bg-white-shadow scale-on-hover pointer-cursor" 
+                  onclick="targetBlankOpen('https://twitter.com/furtcoin/status/1027736696169947136')">
+                  <div class="row">
+                     <img src="https://pbs.twimg.com/media/DkNBESFX4AA66if.jpg" class="twiter-image">
+                  </div>
+                  <div class="row mx-2 mt-2">
+                     <h5>
+                        <svg class="svg-inline--fa fa-heart fa-w-16 fa-fw" aria-hidden="true" data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                           <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                        </svg>
+                        <!-- <i class="far fa-heart fa-fw"></i> -->192 
+                        <svg class="svg-inline--fa fa-comment fa-w-16 fa-fw ml-1" aria-hidden="true" data-prefix="far" data-icon="comment" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                           <path fill="currentColor" d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path>
+                        </svg>
+                        <!-- <i class="far fa-comment fa-fw ml-1"></i> -->3
+                     </h5>
+                  </div>
+                  <div class="row mx-2 my-auto">
+                     <p>Some friends from InsCoin came to our office this morning... Stay Tuned for more!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-12 col-sm-6 col-md-4 col-xl-3 my-3">
+            <div class="row px-3">
+               <div class="col-12 small-rounded-corners bg-white-shadow scale-on-hover pointer-cursor" 
+                  onclick="targetBlankOpen('https://twitter.com/furtcoin/status/1027736724489883648')">
+                  <div class="row">
+                     <img src="https://pbs.twimg.com/media/DkNBGTXXsAAHmEE.jpg" class="twiter-image">
+                  </div>
+                  <div class="row mx-2 mt-2">
+                     <h5>
+                        <svg class="svg-inline--fa fa-heart fa-w-16 fa-fw" aria-hidden="true" data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                           <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                        </svg>
+                        192 
+                        <svg class="svg-inline--fa fa-comment fa-w-16 fa-fw ml-1" aria-hidden="true" data-prefix="far" data-icon="comment" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                           <path fill="currentColor" d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path>
+                        </svg>
+                        <i class="far fa-comment fa-fw ml-1"></i>3
+                     </h5>
+                  </div>
+                  <div class="row mx-2 my-auto">
+                     <p>Some friends from InsCoin came to our office this morning... Stay Tuned for more!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
         <div class="row align-items-center justify-content-center mt-5">
             <div class="col-10">
                 <div class="row justify-content-center">
@@ -1235,9 +1098,9 @@
         <div class="row align-items-end mt-3 mb-1 position-relative">
             <div class="light-overlay"></div>
             <div class="col-12 col-lg-4">
-                <div class="row px-5 justify-content-center justify-content-lg-start">
+                <!-- <div class="row px-5 justify-content-center justify-content-lg-start">
                     <p>Your Location<br>Type your Address Here<br>101, street H NO </p>
-                </div>
+                </div> -->
             </div>
             <div class="col-12 col-lg-4">
                 <!--<div class="row justify-content-center">-->
