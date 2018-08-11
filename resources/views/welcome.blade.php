@@ -45,9 +45,10 @@
     </style>
 </head>
 <body>
-    <nav  class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <nav  class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#homeSection">
-        <img id="navbarLogo" class="bitnautic-logo" src="bootstrap/img/logo.png" alt="Furtcoin logo"></a>
+        <img id="navbarLogo" class="bitnautic-logo" src="bootstrap/img/logo.png" alt="Furtcoin logo">
+        </a>
         <button id="navbarToggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -752,7 +753,7 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="timeline-step" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                                        <!-- <div class="timeline-step" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                             <div class="timeline-step-inner">
                                                 <span></span>
                                                 <span></span>
@@ -763,7 +764,7 @@
                                                     tempor incididunt ut labore et dolore magna aliqua.
                                                 </p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="timeline-step" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                             <div class="timeline-step-inner">
                                                 <span></span>
@@ -786,10 +787,8 @@
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div id="timeline-steps2" class="timeline-steps tab-pane fade">
                                         <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                                            <div class="timeline-step-inner selected-rm-pointer">
+                                            <div class="timeline-step-inner">
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
@@ -799,6 +798,19 @@
                                                 </p>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div id="timeline-steps2" class="timeline-steps tab-pane fade">
+                                        <!-- <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                                            <div class="timeline-step-inner selected-rm-pointer">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <h6>Dec 2018</h6>
+                                                <p>
+                                                    Furtcoin in major exchanges.
+                                                </p>
+                                            </div>
+                                        </div> -->
                                         <div class="timeline-step" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                             <div class="timeline-step-inner selected-rm-pointer">
                                                 <span></span>
