@@ -160,18 +160,8 @@
                     </div>
                 </div>
                 <div class="row justify-content-center"><a href="" class="rounded-button rounded-button-lg active raleway-font-bold d-flex align-items-center text-center mb-1"><i class="fab fa-ethereum mr-2"></i>BUY TOKENS</a></div>
-                <!--<div class="row justify-content-center mt-auto mb-3">
-                    <a href="/register.html" class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1 px-3"><i class="fab fa-ethereum mr-2"></i>Contribute</a><a href="" class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1 pl-2 pr-3"
-                                                                                                                                                                                           target="_blank" rel="noreferrer"><i class="fab fa-telegram fa-2x mr-2"></i>Join us on Telegram</a><a href="/documents.html" class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"><i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a>
-                </div>-->
-            </div>
-            <!--<div id="swissIco" class="align-items-center d-none d-sm-flex dark-text-shadow">
-                <img class="ml-3 mr-1" src="bootstrap/img/ch.svg" style="max-height: 40px;" />
-                <div class="">
-                    <h5 class="text-white m-0">SWISS</h5>
-                    <h5 class="text-white m-0">ICO</h5>
-                </div>
-            </div>-->
+                
+            </div>            
         </div>
         <div id="aboutSection" class="row align-items-center justify-content-center">
             <div class="col">
@@ -181,17 +171,7 @@
                 </div>
                 <div class="row justify-content-center position-relative">
                     <div class="light-overlay"></div>
-                    <div class="col-10 col-lg-4 d-flex flex-column">
-                        <!-- <div class="row mt-auto">
-                            <h4 class="lato-font-regular"><strong class="lato-font-bold bitnautic-blue-text">Loream</strong>, THE WAY IT SHOULD BE</h4>
-                        </div>
-                        <div class="row mb-auto">
-                            <p>
-                                Furtcoin is a <strong class="lato-font-bold bitnautic-blue-text">decentralized platform</strong>, based on the <strong class="lato-font-bold bitnautic-blue-text">Ethereum</strong> Blockchain, for matching demand and supply
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            </p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and <strong class="lato-font-bold bitnautic-blue-text">typesetting industry.</strong> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <strong class="lato-font-bold bitnautic-blue-text">scrambled it</strong> to make a type specimen book.</p>
-                        </div> -->
+                    <div class="col-10 col-lg-4 d-flex flex-column">                       
                         <div class="row mb-auto">
                         Furt Coin is the currency adopted on the Furt platform. 
                         Furt Coin platform is one created by fans, run by fans.
@@ -207,7 +187,12 @@
                     </div>
 
                     <div class="col-10 col-lg-4 offset-lg-1 d-flex flex-column">
-                        <div class="row align-items-center justify-content-center my-auto"><video class="small-rounded-corners w-100" autoplay muted loop playsinline><source src="https://bitnauticcdn-bb3d.kxcdn.com/public/videos/port_motion.mp4" type="video/mp4"></video></div>
+                        <div class="row align-items-center justify-content-center my-auto">
+                        <!-- <video class="small-rounded-corners w-100" autoplay muted loop playsinline> -->
+                            <!-- <source src="https://bitnauticcdn-bb3d.kxcdn.com/public/videos/port_motion.mp4" type="video/mp4"> -->
+                            <img class="small-rounded-corners w-100" src="bootstrap/img/stadium.jpg" alt="">
+                        <!-- </video> -->
+                        </div>
                     </div>
                 </div>
                 <div class="row justify-content-center mt-5">
@@ -228,13 +213,11 @@
                                 height: 100%;
                             }
                     </style>
-                    <!-- <div class='embed-container w-75'><iframe src="https://player.vimeo.com/video/131766159" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div> -->
+                    
                     <div class='embed-container w-75'>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/KXxW4yyrBRs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
-                    <!-- <video width="540" height="310" controls>
-                        <source src="{{url('/')}}/video/FURT_COIN.mp4" type="video/mp4">
-                    </video> -->
+                    
                 </div>
             </div>
         </div>
