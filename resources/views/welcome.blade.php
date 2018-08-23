@@ -766,7 +766,7 @@
                                                 <span></span>
                                                 <h6>Aug 2018</h6>
                                                 <p>
-                                                    Pre ice started.
+                                                    Pre ICO started.
                                                 </p>
                                             </div>
                                         </div>
@@ -1132,7 +1132,7 @@
     <script src="bootstrap/js/index.js"></script>
     <script>
         (function(){
-            var countDownDate = new Date("Aug 23, 2018 00:00:00").getTime();
+            var countDownDate = new Date("Aug 25, 2018 00:00:00").getTime();
             var x = setInterval(function() {
                 var now = new Date().getTime();
                 var distance = countDownDate - now;
