@@ -2,11 +2,11 @@
     <div class="navbar-header">
 
         <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="ti-menu"></i></a>
-        <div class="pull-left">
+        <!-- <div class="pull-left">
             <a href="{{route('dashboard.purchased')}}">
                 <button class="contribute-now-btn">Contribute Now</button>
             </a>
-        </div>
+        </div> -->
         <ul class="nav navbar-top-links navbar-right pull-right">
             <li class="total-bne-border">
                 <div class="total-bne"> Ether Balance

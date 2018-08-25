@@ -3,6 +3,26 @@
 @section('title', 'Dashboard')
 
 @section('content')
+<div class="panel panel-primary margin-top-30">
+        <div class="panel-heading">BUY FURT TOKENS</div>
+        <div class="panel-body">
+            <div class="row padding-30-0">
+                <!-- <div class="col-sm-"> -->
+                <div class="col-sm-12" style="text-align: center;">
+                    <label for="ethereumWallet">Please send ETH  to FURT Token Sale ETH receiving wallet: </label>
+                    <div class="row margin-top-50" >
+                    <label for="ethereumWallet">0xf563549daf64f684858e863e2731f19633d1acb1</label>
+                    </div>
+                    <div class="row margin-top-50" >
+                        <button class="contribute-now-btn" onclick="copyToClipBoard()">Copy to Clipboard</button>
+                    </div>                    
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
     <div class="panel panel-primary margin-top-30">
         <div class="panel-heading">MY ETH WALLET</div>
         <div class="panel-body">
@@ -12,7 +32,7 @@
                         <form method="post" class="wallet-value-form" action="{{ route('dashboard.profile.update') }}">
                             {{ csrf_field() }}
 
-                            <p class="font-12 margin-bottom-30">Enter your Ethereum address below to receive ARTZ token:</p>
+                            <p class="font-12 margin-bottom-30">Enter your Ethereum address below to receive FURT token:</p>
 
                             <div class="form-group" style="margin:0">
                                 <label for="ethereumWallet">Ethereum Address:</label>
@@ -228,4 +248,14 @@
             </div>
         </div>
     </div>
+    <script>
+        function copyToClipBoard(){
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val("0xf563549daf64f684858e863e2731f19633d1acb1").select();
+            document.execCommand("copy");
+            alert("Address Copied: 0xf563549daf64f684858e863e2731f19633d1acb1");
+        }
+        
+    </script>
 @endsection

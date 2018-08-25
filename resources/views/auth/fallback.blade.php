@@ -11,7 +11,7 @@
                 <div class="col-md-4 col-xs-12 Aligner-item Aligner-item--fixed">
                     <div class="panel panel-default m-0">
                         <div class="panel-heading text-center">
-                            <a href="{{ route('home') }}"><img class="login_pic" src="/images/login-logo.jpg" alt=""></a>
+                            <a href="{{ route('home') }}"><img class="login_pic" src="{{ URL::asset('images/logo-icon.png') }}" alt=""></a>
                         </div>
 
                         <div class="panel-body">

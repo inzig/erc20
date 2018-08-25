@@ -103,7 +103,7 @@
                     <h1 class="dark-text-shadow baner-text">WHO OWNS FOOTBALL</h1>
                 </div>
                 <div class="row justify-content-center text-center mt-auto">
-                    <h3 id="countdownsLabel" class="dark-text-shadow">Time to start Pre ICO sale</h3>
+                    <h3 id="countdownsLabel" class="dark-text-shadow">Pre ICO sale Started</h3>
                 </div>
                 <div class="d-flex justify-content-center dark-text-shadow">
                     <div class="d-flex flex-column align-items-center">
@@ -159,7 +159,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center"><a href="" class="rounded-button rounded-button-lg active raleway-font-bold d-flex align-items-center text-center mb-1"><i class="fab fa-ethereum mr-2"></i>BUY TOKENS</a></div>
+                <div class="row justify-content-center"><a href="{{ url('login') }}" class="rounded-button rounded-button-lg active raleway-font-bold d-flex align-items-center text-center mb-1"><i class="fab fa-ethereum mr-2"></i>BUY TOKENS</a></div>
                 
             </div>            
         </div>
@@ -618,7 +618,7 @@
                                 <div class="row">Soft Cap:</div>
                             </div>
                             <div class="col-3">
-                                <div class="row justify-content-end">17,000 ETH</div>
+                                <div class="row justify-content-end">1000 ETH</div>
                             </div>
                         </div>
                         <div class="row">
@@ -662,7 +662,7 @@
                             </div>
                         </div>
                         <div class="row justify-content-center mt-3"><strong class="bitnautic-blue-text">No new tokens will ever be created</strong></div>
-                        <div class="row justify-content-center mt-5"><a href="/" class="rounded-button rounded-button-lg active raleway-font-bold d-flex align-items-center mb-1"><i class="fab fa-ethereum mr-2"></i>BUY TOKENS</a></div>
+                        <div class="row justify-content-center mt-5"><a href="{{ url('login') }}" class="rounded-button rounded-button-lg active raleway-font-bold d-flex align-items-center mb-1"><i class="fab fa-ethereum mr-2"></i>BUY TOKENS</a></div>
                     </div>
                     <div class="col-12 col-lg-6 mt-5">
                         <div class="row justify-content-center">
@@ -698,7 +698,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center mt-3">
-                    <a href="" class="rounded-button active raleway-font-bold d-flex align-items-center mb-1"><i class="fab fa-ethereum mr-2"></i>CONTRIBUTE</a>
+                    <a href="{{ url('login') }}" class="rounded-button active raleway-font-bold d-flex align-items-center mb-1"><i class="fab fa-ethereum mr-2"></i>CONTRIBUTE</a>
                     <!-- <a href="" class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"
                     target="_blank" rel="noreferrer"><i class="fa fa-file-alt mr-2"></i>TERMS &amp; CONDITIONS</a> -->
                     <a href="{{ url('/') }}/assets/white-paper.pdf" target="_blank"  class="rounded-button active raleway-font-bold d-flex align-items-center mx-3 mb-1"><i class="fa fa-file-alt mr-2"></i>WHITE PAPER</a>

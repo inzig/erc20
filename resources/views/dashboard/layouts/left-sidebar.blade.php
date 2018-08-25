@@ -12,12 +12,12 @@
                     <span class="hide-menu"> Dashboard </span>
                 </a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="{{\BCES\Models\Setting::whereName('payment_disabled')->first()->value=='no'?route('dashboard.purchased'):'javascript:;'}}" class="waves-effect">
                     <i class="fa fa-shopping-cart fa-fw" aria-hidden="true"></i>
                     <span class="hide-menu"> Buy FURT Tokens </span>
                 </a>
-            </li>
+            </li> -->
 
 
             <li>
