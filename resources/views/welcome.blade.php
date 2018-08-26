@@ -103,7 +103,7 @@
                     <h1 class="dark-text-shadow baner-text">WHO OWNS FOOTBALL</h1>
                 </div>
                 <div class="row justify-content-center text-center mt-auto">
-                    <h3 id="countdownsLabel" class="dark-text-shadow">Pre ICO sale Started</h3>
+                    <h3 id="countdownsLabel" class="dark-text-shadow">ICO sale has Started, ICO ends in.</h3>
                 </div>
                 <div class="d-flex justify-content-center dark-text-shadow">
                     <div class="d-flex flex-column align-items-center">
@@ -149,7 +149,7 @@
                             <div class="progress w-100 ico-progress-bar box-white-highlight">
                                 <div class="progress-bar bitnautic-light-blue-gradient box-white-highlight" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
                             </div>
-                            <p id="icoProgressHardCapLabel" class="dark-text-shadow m-0">Soft Cap</p>
+                            <p id="icoProgressHardCapLabel" class="dark-text-shadow m-0">Hard Cap</p>
                         </div>
                         <div id="etherRaisedContainer" class="row justify-content-center d-none">
                             <h1 class="large-rounded-corners bitnautic-light-blue-gradient text-white text-white-highlight box-white-highlight py-3 px-sm-5 text-center">Raised: $<span id="crowdsaleRaisedLabel" class="lato-font-bold">0</span></h1>
@@ -1132,7 +1132,7 @@
     <script src="bootstrap/js/index.js"></script>
     <script>
         (function(){
-            var countDownDate = new Date("Aug 25, 2018 00:00:00").getTime();
+            var countDownDate = new Date("Nov 18, 2018 00:00:00").getTime();
             var x = setInterval(function() {
                 var now = new Date().getTime();
                 var distance = countDownDate - now;

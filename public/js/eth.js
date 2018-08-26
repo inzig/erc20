@@ -1,11 +1,11 @@
 
 window.addEventListener('load', function() {
-	var web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io/dCDiunxupCBkIAUCesBf"));
+	var web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/dCDiunxupCBkIAUCesBf"));
     checkBalance(web3);
 });
 
 function checkBalance(web3){
-var tokenAddress = "0xfd0932afd470c985457ab60cbc85f554cf7416db";
+var tokenAddress = "0xf563549daf64f684858e863e2731f19633d1acb1";
 var tokenABI = [
 	{
 		"constant": true,
@@ -87,10 +87,12 @@ var tokenABI = [
 	}
 ];
 var tokenInst = web3.eth.contract(tokenABI).at(tokenAddress);
-var address_to_check = "0x1C11f6b1A2d1c0b00ad4145eb067184736EB973f";
+var address_to_check = window.ethAccount ;
+// console.log(address_to_check);
+
 var balance = tokenInst.balanceOf.call(address_to_check);
-var ethbalnce = web3.fromWei(web3.eth.getBalance(address_to_check));
-$("#ethBalance").html(ethbalnce.c[0]);
-$("#balance").html(balance.c[0]+""+balance.c[1]);
-// console.log(balance);
+// var ethbalnce = web3.eth.getBalance(address_to_check);
+// $("#ethBalance").html(ethbalnce.c[0]);
+$("#balance").html(balance.c[0]);
+// console.log(ethbalnce);
 }
