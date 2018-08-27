@@ -618,7 +618,31 @@
                                 <div class="row">Exchange Rate:</div>
                             </div>
                             <div class="col-5">
-                                <div class="row justify-content-end">0.007 ETH = 1 FURT</div>
+                                <div class="row justify-content-end">0.00003 ETH = 1 FURT</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 offset-2">
+                                <div class="row">24th Aug - 27th Sep:</div>
+                            </div>
+                            <div class="col-5">
+                                <div class="row justify-content-end">1 ETH = 25000 FURT</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 offset-2">
+                                <div class="row">28th sep - 28th Oct:</div>
+                            </div>
+                            <div class="col-5">
+                                <div class="row justify-content-end">1 ETH = 18000 FURT </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 offset-2">
+                                <div class="row">28th Oct - 18th Nov:</div>
+                            </div>
+                            <div class="col-5">
+                                <div class="row justify-content-end">1 ETH = 14000 FURT</div>
                             </div>
                         </div>
                         <div class="row">
