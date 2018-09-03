@@ -223,7 +223,8 @@
                     </style>
                     
                     <div class='embed-container w-75'>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KXxW4yyrBRs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/KXxW4yyrBRs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7MSR-0KOxec" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     
                 </div>
