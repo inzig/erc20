@@ -1099,14 +1099,14 @@
                         <div class="row justify-content-center">
                             <h2 class="lato-font-regular text-center">Contact <strong class="lato-font-bold bitnautic-blue-text">Us</strong></h2>
                         </div>
-                        <form id="contactForm" class="w-100 mt-2">
-                            <div class="form-group"><input class="form-control form-control-shadow" type="text" id="contactFullName" name="fullName" placeholder="Your Name *" /></div>
-                            <div class="form-group"><input class="form-control form-control-shadow" type="text" id="contactEmail" name="email" placeholder="E-mail *" /></div>
+                        <form  action="{{ url('api/savenewsletter') }}" method="POST" class="w-100 mt-2">
+                            <div class="form-group"><input class="form-control form-control-shadow" type="text" id="contactFullName" name="name" placeholder="Your Name *" /></div>
+                            <div class="form-group"><input class="form-control form-control-shadow" type="text" id="contactEmail" name="newsletter" placeholder="E-mail *" /></div>
                             <div class="form-group"><textarea class="form-control form-control-shadow" id="contactMessage" name="message" placeholder="Your Message *"></textarea></div>
                             <div class="form-row justify-content-center">
                                 <p>or write us an email at <a href="" class="bitnautic-blue-text"><span class="__cf_email__" data-cfemail="6b181e1b1b04191f2b09021f050a1e1f0208450204">[email&#160;protected]</span></a></p>
                             </div>
-                            <div class="form-row justify-content-center"><button id="contactSendButton" class="rounded-button active mt-3 px-5" type="button"><i class="fa fa-envelope mr-2"></i><span>SEND</span></button></div>
+                            <div class="form-row justify-content-center"><button id="contactSendButton-11" class="rounded-button active mt-3 px-5" type="submit"><i class="fa fa-envelope mr-2"></i><span>SEND</span></button></div>
                         </form>
                     </div>
                     <div class="col-10 col-lg-5 offset-lg-1 mt-5">
@@ -1116,9 +1116,14 @@
                         <div class="row justify-content-center mt-2">
                             <h6 class="text-center">Subscribe to stay up to date on company news and product updates</h6>
                         </div>
-                        <form action="" method="post" class="mt-3" novalidate>
-                            <div class="form-group"><input class="form-control text-center form-control-shadow" type="email" name="w-field-field-24574-125094-701203-email" placeholder="Enter your e-mail address" /></div>
-                            <div class="form-row justify-content-center"><button class="rounded-button active d-flex align-items-center my-3 py-0" type="submit" name="subscribe">SUBSCRIBE NOW</button></div>
+                        <form action="{{ url('api/savenewsletteremail') }}" method="POST" class="mt-3">
+                            {{csrf_field()}}
+                            <div class="form-group">                            
+                            <input class="form-control text-center form-control-shadow" type="email" name="newsletter" placeholder="Enter your e-mail address" /></div>
+                            <div class="form-row justify-content-center">
+                            <button class="rounded-button active d-flex align-items-center my-3 py-0" type="submit">SUBSCRIBE NOW</button>
+                            </div>
+                            <!-- <button type="submit">Submit</button> -->
                         </form>
                     </div>
                 </div>

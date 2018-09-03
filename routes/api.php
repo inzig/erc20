@@ -27,6 +27,10 @@ Route::post('/verify/referral/address', 'REFController');
 Route::post('/subscribe', 'SubscribeController@index');
 Route::post('/contactUs', 'SubscribeController@contactUs');
 
+Route::post('savenewsletter', 'SubscribeController@save');
+Route::post('savenewsletteremail', 'SubscribeController@saveemail')->name("savenewsletteremail");
+
+
 Route::group(['middleware' => 'auth:api'], function () {
 
     Route::get('/user', function (Request $request) {

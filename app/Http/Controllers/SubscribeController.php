@@ -8,6 +8,7 @@ use BCES\Models\Setting;
 use BCES\Models\Subscribe;
 use BCES\Rules\AlphaSpace;
 use Illuminate\Http\Request;
+use Newsletter;
 
 class SubscribeController extends Controller
 {
@@ -40,5 +41,18 @@ class SubscribeController extends Controller
         \Mail::to(Setting::whereName('contact_us_email')->first()->value)->send(new ContactUsMail($request->all()));
 
         return response()->json(['message' => 'Your message has been sent.']);
+    }
+    
+    public function save(Request $request)
+    {
+         $email =  $request->newsletter;
+         Newsletter::subscribePending($email, ['NAME'=>$request->name, 'MESSAGE'=>$request->message, 'TYPE'=>"Website"], 'subscribers');
+         return redirect('/');
+    }
+    public function saveemail(Request $request)
+    {
+         $email =  $request->newsletter;
+         Newsletter::subscribePending($email);
+         return redirect('/');
     }
 }
