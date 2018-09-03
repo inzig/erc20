@@ -35,11 +35,12 @@
 <div id="teamSection" class="row align-items-center justify-content-center mt-5">
     <div class="col-10">
             <div class="row justify-content-center mb-3 mt-5 pt-3">
-                <h1 class="lato-font-regular text-center">Meet Our <strong class="lato-font-bold bitnautic-blue-text"> Advisors</strong></h1>
+                <!-- <h1 class="lato-font-regular text-center">Meet Our <strong class="lato-font-bold bitnautic-blue-text"> Advisors</strong></h1> -->
             </div>  
 
             @php
-                $members = \BCES\Models\Member::whereTitle('Advisor')->get();
+               $members = \BCES\Models\Member::whereTitle('Advisor')->get();
+               $members = [];
             @endphp
             <div id="devMembersContainer" class="team-portrait-grid">
                     @foreach($members as $member)
