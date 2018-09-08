@@ -9,7 +9,6 @@ storage/
 
 # Laravel 5 & Lumen specific
 public/storage
-/public
 
 storage/*.key
 .env.*.php
