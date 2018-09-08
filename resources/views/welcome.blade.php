@@ -172,7 +172,7 @@
                                                 </div>
                                                 <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="2.3s">
                                                     <div class="purchase-token-btn">
-                                                        <a href="crypto-ico-admin\html\ltr\vertical-menu\account-login.html" class="btn btn-lg btn-gradient-orange btn-round btn-glow"><img src="theme-assets/images/icon-eth.png" alt=""> Purchase Token</a>
+                                                        <a href="{{ url('login')}}" class="btn btn-lg btn-gradient-orange btn-round btn-glow"><img src="theme-assets/images/icon-eth.png" alt=""> Purchase Token</a>
                                                     </div>
                                     
                                                 </div>
@@ -417,8 +417,8 @@
                                         <span class="medium"></span>
                                         <span class="small"></span>
                                     </div>
-                                    <p class="content-desc animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">This is a list of Furtcoin. The number of Furtcoin available over
-                                        <br class="d-none d-xl-block">the internet as of 7 January 2018 is over 1384 and growing.</p>
+                                    <!-- <p class="content-desc animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">This is a list of Furtcoin. The number of Furtcoin available over
+                                        <br class="d-none d-xl-block">the internet as of 7 January 2018 is over 1384 and growing.</p> -->
                                 </div>
                                 <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
                                     <div class="col-12">
