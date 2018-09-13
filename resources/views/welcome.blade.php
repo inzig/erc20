@@ -1505,8 +1505,6 @@
         <!-- BEGIN THEME JS-->
         <script src="theme-assets/js/theme.js"></script>
       <!--   <script src="theme-assets/js/sales-notification.js"></script> -->
-        <!-- END CRYPTO JS-->
-        <!-- BEGIN PAGE LEVEL JS-->
-        <!-- END PAGE LEVEL JS-->
+     
     </body>
 </html>

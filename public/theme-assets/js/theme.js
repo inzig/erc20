@@ -120,18 +120,23 @@ $(window).on('load', function() {
 
     /* FlipClock Counter */
     var clock;
-    clock = $('.clock').FlipClock({
+    var countDownDate = new Date("Nov 18, 2018 00:00:00").getTime();
+    var now = new Date().getTime();
+    var distance = countDownDate / 1000 - now / 1000;
+    clock = $('.clock').FlipClock(distance,{
+        autoStart: true,
         clockFace: 'DailyCounter',
-        autoStart: false,
+        countdown: true,
         callbacks: {
             stop: function() {
                 $('.message').html('The clock has stopped!')
             }
         }
     });
-    clock.setTime(6160000);
-    clock.setCountdown(true);
-    clock.start();
+    
+    // clock.setTime(6160000);
+    // clock.setCountdown(true);
+    // clock.start();
 
     /* Video Modal Open / Close */
 
