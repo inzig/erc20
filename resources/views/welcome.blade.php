@@ -368,33 +368,7 @@
                                                             </div>
                                                         </a>
                                                     </div>
-<!--                                                    <div class="col-md-3 col-6 text-center mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.7s">
-                                                        <a href="#" title="Japanese">
-                                                            <img src="theme-assets/images/flag-2.png" alt="English">
-                                                            <div class="lang-text">
-                                                                <span class="icon ti-download mr-1"></span>
-                                                                <span class="language">Japanese</span>
-                                                            </div>
-                                                        </a>
-                                                    </div>-->
-<!--                                                    <div class="col-md-3 col-6 text-center mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.8s">
-                                                        <a href="#" title="Russian">
-                                                            <img src="theme-assets/images/flag-3.png" alt="English">
-                                                            <div class="lang-text">
-                                                                <span class="icon ti-download mr-1"></span>
-                                                                <span class="language">Russian</span>
-                                                            </div>
-                                                        </a>
-                                                    </div>-->
-<!--                                                    <div class="col-md-3 col-6 text-center mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.9s">
-                                                        <a href="#" title="Chinese">
-                                                            <img src="theme-assets/images/flag-4.png" alt="English">
-                                                            <div class="lang-text">
-                                                                <span class="icon ti-download mr-1"></span>
-                                                                <span class="language">Chinese</span>
-                                                            </div>
-                                                        </a>
-                                                    </div>-->
+
                                                 </div>
                                             </div>
                                         </div>
@@ -535,8 +509,6 @@
                                     <div class="col-md-12 col-lg-6 col-xl-5 offset-xl-1 animated" data-animation="fadeInRightShorter" data-animation-delay="0.6s">
                                         <div class="content-area">
                                             <h4>Details</h4>
-                                            <!--<p class="mt-1">To calculate the number of tokens you’ll receive, you can follow the following formula. Note that this applies to public presale contributions only. If you participated through a syndicate or private presale,</p>-->
-                                            <!--<p>To calculate the number of tokens you’ll receive, you can follow the following formula. Note that this applies to public presale contributions only. If you participated through a syndicate or private presale,</p>-->
                                             <p><span>Token Symbol:</span> <strong class="grey-accent2">FURT</strong></p>
                                             <p><span>Token Type:</span> <strong class="grey-accent2">ERC20</strong></p>
                                             <p><span>Total Token Supply:</span> <strong class="grey-accent2">14,360,000,000 FURT</strong></p>
@@ -572,27 +544,11 @@
                                         <span class="medium"></span>
                                         <span class="small"></span>
                                     </div>
-                                    <!-- <p class="content-desc animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium
-                                        <br class="d-none d-xl-block">of exchange that uses cryptography to secure its transactions.</p> -->
-                                </div>
-                              <!--   <div class="row team-intro justify-content-center text-center">
-                                    <div class="col-12 col-md-4 col-lg-2  team-width animated" data-animation="fadeInUpShorter" data-animation-delay="0.5s">
-                                        <span>18</span>
-                                        <p>Creative and
-                                            <br>Dedicated People</p>
-                                    </div>
-                                    <div class="col-12 col-md-4 col-lg-2  team-width animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
-                                        <span>125</span>
-                                        <p>Years of combined experience</p>
-                                    </div>
-                                    <div class="col-12 col-md-4 col-lg-2  team-width animated" data-animation="fadeInUpShorter" data-animation-delay="0.7s">
-                                        <span>10</span>
-                                        <p>Years of blockchain experience</p>
-                                    </div>
-                                </div> -->
+                                     </div>
+                              
                                 <div class="team-profile mt-5">
 
- <div class="row mb-5">
+                                    <div class="row mb-5">
                                         <div class="col-sm-12 col-md-6 col-lg-4 mb-5 animated jello" data-animation="jello" data-animation-delay="0.8s" style="animation-delay: 0.8s; opacity: 1;">
                                             <div class="d-flex team-member">
                                                 <div class="team-img float-left mr-3" data-toggle="modal" data-target="#teamUser9">
@@ -714,32 +670,37 @@
                         <div class="container-fluid">
                             <div class="container">
                                 <div class="heading text-center">
-                                    <h2 class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">As Seen On</h6>
+                                    <h2 class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Now Trading On</h6>
 
                                     <div class="row">
                                         <div class="col-md-12 col-xs-12 col-sm-12 mt-xs-5 m-t-50">
                                             <div class="row">
                                                 <div class="col-md-3 col-xs-12 col-sm-3 text-center">
-                                                    <a href="https://coindelite.com/ico-details-furtcoin" target="_blank"> <img class="img-partner" src="theme-assets/images/icon-new.png"></a> 
+                                                    <a href="https://bitebtc.com/trade/furt_btc" target="_blank">
+                                                    <img class="img-partner" src="https://bitebtc.com/apple-touch-icon.png"></a> 
                                                 </div>
 
                                                  <div class="col-md-3 col-xs-12 col-sm-3 text-center">
-                                                    <a href="#" target="_blank"> <img class="img-partner" src="theme-assets/images/icon-new1.png"></a> 
+                                                    <a href="https://crex24.com/exchange/FURT-BTC" target="_blank"> 
+                                                    <img class="img-partner" src="https://www.forexbrokerz.com/files/1517221330Crex24%20logo.jpg"></a> 
                                                 </div>
 
                                                  <div class="col-md-3 col-xs-12 col-sm-3 text-center">
-                                                    <a href="https://www.coinschedule.com/ico/furtcoin#event5095" target="_blank"> <img class="img-partner" src="theme-assets/images/icon-new2.png"></a> 
+                                                    <a href="https://bitcointalk.org/index.php?topic=5040875" target="_blank"> 
+                                                    <img class="img-partner" src="https://ip.bitcointalk.org/?u=https%3A%2F%2Fi.imgur.com%2FYjNfHIi.png&t=593&c=yGyq-CCik0LuwA"></a> 
                                                 </div>
 
-                                                 <div class="col-md-3 col-xs-12 col-sm-3 text-center">
-                                                    <a href="#" target="_blank"> <img class="img-partner" src="theme-assets/images/icon-new3.png"></a> 
-                                                </div>
+                                                 <!-- <div class="col-md-3 col-xs-12 col-sm-3 text-center">
+                                                    <a href="#" target="_blank"> 
+                                                    <img class="img-partner" src="theme-assets/images/icon-new3.png"></a> 
+                                                </div> -->
                                             </div>
 
 
-                                             <div class="row m-t-70">
+                                             <!-- <div class="row m-t-70">
                                                 <div class="col-md-3 col-xs-12 col-sm-3 text-center">
-                                                    <a href="https://coindelite.com/ico-details-furtcoin" target="_blank"> <img class="img-partner" src="theme-assets/images/icon-new.png"></a> 
+                                                    <a href="https://coindelite.com/ico-details-furtcoin" target="_blank"> 
+                                                    <img class="img-partner" src="theme-assets/images/icon-new.png"></a> 
                                                 </div>
 
                                                  <div class="col-md-3 col-xs-12 col-sm-3 text-center">
@@ -747,13 +708,15 @@
                                                 </div>
 
                                                  <div class="col-md-3 col-xs-12 col-sm-3 text-center">
-                                                    <a href="https://www.coinschedule.com/ico/furtcoin#event5095" target="_blank"> <img class="img-partner" src="theme-assets/images/icon-new2.png"></a> 
+                                                    <a href="https://www.coinschedule.com/ico/furtcoin#event5095" target="_blank"> 
+                                                    <img class="img-partner" src="theme-assets/images/icon-new2.png"></a> 
                                                 </div>
 
                                                  <div class="col-md-3 col-xs-12 col-sm-3 text-center">
-                                                    <a href="#" target="_blank"> <img class="img-partner" src="theme-assets/images/icon-new3.png"></a> 
+                                                    <a href="#" target="_blank"> 
+                                                    <img class="img-partner" src="theme-assets/images/icon-new3.png"></a> 
                                                 </div>
-                                            </div>
+                                            </div> -->
 
                                         </div>
 
@@ -1504,7 +1467,6 @@
         <!-- END PAGE VENDOR JS-->
         <!-- BEGIN THEME JS-->
         <script src="theme-assets/js/theme.js"></script>
-      <!--   <script src="theme-assets/js/sales-notification.js"></script> -->
-     
+      <!--   <script src="theme-assets/js/sales-notification.js"></script> -->     
     </body>
 </html>
