@@ -127,7 +127,7 @@
     </div>
 
 
-    <div class="panel panel-primary margin-top-30">
+    <div class="panel panel-primary margin-top-30 margin-bottom-70">
         <div class="panel-body social-media-bg">
             <div class="row seven-cols">
                 @php
@@ -186,68 +186,6 @@
         </div>
     </div>
 
-    <div class="panel panel-default margin-top-30 margin-bottom-70">
-        <div class="panel-heading panel-heading-dash">Bonuses</div>
-        <div class="panel-body">
-            <div class="card-body padding-top-60">
-                <div class="roadmap-container col-md-12">
-                    <div class="mar_box__items">
-
-                        @php
-                            $bonuses = \BCES\Models\ICOBonus::orderBy('week')->get();
-                        @endphp
-
-
-                        <div class="mar_box__item tooltipster">
-                            <div class="mar_box__item-in">
-                                <div class="mar_box__item-numb">{{ $bonuses->where('type', 'Pre Sale')->first()->discount }}%</div>
-                                <div class="mar_box__item-line" style="width: {{ $bonuses->where('type', 'Pre Sale')->first()->discount }}%;"></div>
-                                <div class="mar_box__item-line dark" style="width: {{ 100-$bonuses->where('type', 'Pre Sale')->first()->discount }}%;"></div>
-                                <div class="clearfix"></div>
-                                <div class="mar_box__item-underlinenumb">{{ $bonuses->where('type', 'Pre Sale')->first()->type }}</div>
-                            </div>
-                        </div>
-
-
-                        <div class="mar_box__item tooltipster">
-                            <div class="mar_box__item-in">
-                                <div class="mar_box__item-numb">{{ $bonuses->where('type', 'Pre ICO')->first()->discount }}%</div>
-                                <div class="mar_box__item-line" style="width: {{ $bonuses->where('type', 'Pre ICO')->first()->discount }}%;"></div>
-                                <div class="mar_box__item-line dark" style="width: {{ 100-$bonuses->where('type', 'Pre ICO')->first()->discount }}%;"></div>
-                                <div class="clearfix"></div>
-                                <div class="mar_box__item-underlinenumb">{{ $bonuses->where('type', 'Pre ICO')->first()->type }}</div>
-                            </div>
-                        </div>
-
-                        @foreach($bonuses->where('week', '!=', 0) as $bonus)
-                            <div class="mar_box__item tooltipster">
-                                <div class="mar_box__item-in">
-                                    <div class="mar_box__item-numb">{{ $bonus->discount }}%</div>
-                                    <div class="mar_box__item-line" style="width: {{ $bonus->discount }}%;"></div>
-                                    <div class="mar_box__item-line dark" style="width: {{ 100-$bonus->discount }}%;"></div>
-                                    <div class="clearfix"></div>
-                                    <div class="mar_box__item-underlinenumb">Week {{ $bonus->week }}</div>
-                                </div>
-                            </div>
-                        @endforeach
-
-                        <div class="mar_box__item tooltipster">
-                            <div class="mar_box__item-in">
-                                <div class="mar_box__item-numb">{{ $bonuses->where('type', 'Remaining days')->first()->discount }}%</div>
-                                <div class="mar_box__item-line" style="width: {{ $bonuses->where('type', 'Remaining days')->first()->discount }}%;"></div>
-                                <div class="mar_box__item-line dark" style="width: {{ 100-$bonuses->where('type', 'Remaining days')->first()->discount }}%;"></div>
-                                <div class="clearfix"></div>
-                                <div class="mar_box__item-underlinenumb">{{ $bonuses->where('type', 'Remaining days')->first()->type }}</div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <script>
         function copyToClipBoard(){
             var $temp = $("<input>");
