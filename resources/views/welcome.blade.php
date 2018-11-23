@@ -155,11 +155,11 @@
                                                                     <li></li>
                                                                 </ul>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 50%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                    <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                                                 </div>
                                                                 <div class="progress-bottom">
                                                                     <div class="progress-info">1000 ETH</div>
-                                                                    <div class="progress-info">$2.3 Million raised</div>
+                                                                    <!-- <div class="progress-info">$2.3 Million raised</div> -->
                                                                     <div class="progress-info">60,000 ETH</div>
                                                                 </div>
                                                             </div>
@@ -167,8 +167,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="clock-counter animated" data-animation="fadeInUpShorter" data-animation-delay="2.1s">
-                                                    <div class="clock ml-0 mt-4"></div>
-                                                    <div class="message"></div>
+                                                    <!-- <div class="clock ml-0 mt-4"></div> -->
+                                                    <div class="message">ICO has been Ended!</div>
                                                 </div>
                                                 <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="2.3s">
                                                     <div class="purchase-token-btn">
