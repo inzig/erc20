@@ -168,7 +168,7 @@
                                                 </div>
                                                 <div class="clock-counter animated" data-animation="fadeInUpShorter" data-animation-delay="2.1s">
                                                     <!-- <div class="clock ml-0 mt-4"></div> -->
-                                                    <div class="message">ICO has been Ended!</div>
+                                                    <div class="message">TOKEN SALE ENDED!</div>
                                                 </div>
                                                 <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="2.3s">
                                                     <div class="purchase-token-btn">
